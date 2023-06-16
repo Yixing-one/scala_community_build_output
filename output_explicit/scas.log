@@ -1,0 +1,538 @@
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] waiting for lock on /Users/y3536zha/.ivy2/.sbt.ivy.lock to be available...
+[info] loading settings for project scala_flexible_type_with_test_script-build-build from build.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/project/project
+[info] loading settings for project scala_flexible_type_with_test_script-build from build.sbt,plugins.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/project
+[info] loading settings for project scala3 from build.sbt ...
+[info] resolving key references (31394 settings) ...
+[info] set current project to scala3 (in build file:/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/interfaces/target/scala3-interfaces-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_sjs1_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/tasty/../out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/tasty-core_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-bridge/src/target/scala3-sbt-bridge-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/tasty-inspector/../out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-tasty-inspector_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/compiler/../out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-compiler_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/sbt-community-build-0.1.0-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/scaladoc/../out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scaladoc_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] :: delivering :: org.scala-lang#scala3-interfaces;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 02:32:26 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/interfaces/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-interfaces.pom
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-interfaces.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-interfaces-sources.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-interfaces-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: ch.epfl.lamp#sbt-community-build;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Wed Jun 14 02:32:27 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/ivy-0.1.0-SNAPSHOT.xml
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/poms/sbt-community-build.pom
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/jars/sbt-community-build.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/srcs/sbt-community-build-sources.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/docs/sbt-community-build-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-sbt-bridge;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 02:32:30 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-bridge/src/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-sbt-bridge.pom
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-sbt-bridge.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-sbt-bridge-sources.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-sbt-bridge-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#tasty-core_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 02:32:38 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/poms/tasty-core_3.pom
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/jars/tasty-core_3.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/srcs/tasty-core_3-sources.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/docs/tasty-core_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] :: delivering :: org.scala-lang#scala3-tasty-inspector_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 02:32:38 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-tasty-inspector_3.pom
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-tasty-inspector_3.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-tasty-inspector_3-sources.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-tasty-inspector_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scaladoc_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 02:32:38 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/poms/scaladoc_3.pom
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/jars/scaladoc_3.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scaladoc_3-sources.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/docs/scaladoc_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Flag -project-logo set repeatedly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Flag -project-footer set repeatedly
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
+[warn] Flag -default-template set repeatedly
+[warn] Setting -external-mappings set to .*scala/.*::scaladoc3::https://dotty.epfl.ch/api/ redundantly
+[warn] Setting -external-mappings set to .*java/.*::javadoc::https://docs.oracle.com/javase/8/docs/api/ redundantly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] :: delivering :: org.scala-lang#scala3-compiler_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 02:32:43 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-compiler_3.pom
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-compiler_3.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-compiler_3-sources.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-compiler_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      ^
+[warn]    |      No DRI found for query: MalformedNumber
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      ^
+[warn]    |      No DRI found for query: MalformedNumber
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error]    |(Note: this can be resolved by using another name)
+[warn] 28 warnings found
+[warn] 14 warnings found
+[error] one error found
+[error] one error found
+[info] :: delivering :: org.scala-lang#scala3-library_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 02:33:26 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_3.pom
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_3.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_3-sources.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-library_sjs1_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 02:33:26 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_sjs1_3.pom
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_sjs1_3.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_sjs1_3-sources.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_sjs1_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Test run dotty.communitybuild.CommunityBuildTestA started
+[info] Test run dotty.communitybuild.CommunityBuildTestA finished: 0 failed, 0 ignored, 0 total, 0.001s
+[info] Test run dotty.communitybuild.CommunityBuildTestC started
+[info] Test dotty.communitybuild.CommunityBuildTestC.scas started
+[32m[STARTING scas][0m
+[32m[DEPENDENCIES DONE, NOW ACTUALLY RUNNING scas][0m
+[32mBuilding scas with dotty-bootstrapped 3.3.1-RC1-bin-SNAPSHOT...[0m
+[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT scas.application.test[0m
+Compiling /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/build.sc
+[1/75] scas.application.mainClass 
+[1A[2K[9999D[2/75] mill.scalalib.ZincWorkerModule.classpath 
+[1A[2K[9999D[3/75] mill.scalalib.ZincWorkerModule.worker 
+[1A[2K[9999D[4/75] scas.application.scalaVersion 
+[1A[2K[9999D[5/75] scas.scalaVersion 
+[1A[2K[9999D[6/75] scas.upstreamCompileOutput 
+[1A[2K[9999D[7/75] scas.sources 
+[1A[2K[9999D[8/75] scas.generatedSources 
+[1A[2K[9999D[9/75] scas.allSources 
+[1A[2K[9999D[10/75] scas.allSourceFiles 
+[1A[2K[9999D[11/75] scas.transitiveLocalClasspath 
+[1A[2K[9999D[12/75] scas.resources 
+[1A[2K[9999D[13/75] scas.unmanagedClasspath 
+[1A[2K[9999D[14/75] scas.platformSuffix 
+[1A[2K[9999D[15/75] scas.compileIvyDeps 
+[1A[2K[9999D[16/75] scas.transitiveCompileIvyDeps 
+[1A[2K[9999D[17/75] scas.ivyDeps 
+[1A[2K[9999D[18/75] scas.mandatoryIvyDeps.overridden.mill.scalalib.JavaModule.mandatoryIvyDeps 
+[1A[2K[9999D[19/75] scas.scalaOrganization 
+[1A[2K[9999D[20/75] scas.scalaLibraryIvyDeps 
+[1A[2K[9999D[21/75] scas.mandatoryIvyDeps 
+[1A[2K[9999D[22/75] scas.transitiveIvyDeps 
+[1A[2K[9999D[23/75] scas.resolvedIvyDeps 
+[1A[2K[9999D[24/75] scas.compileClasspath 
+[1A[2K[9999D[25/75] scas.javacOptions 
+[1A[2K[9999D[26/75] scas.mandatoryScalacOptions 
+[1A[2K[9999D[27/75] scas.scalacPluginIvyDeps 
+[1A[2K[9999D[28/75] scas.enablePluginScalacOptions 
+[1A[2K[9999D[29/75] scas.scalacOptions 
+[1A[2K[9999D[30/75] scas.allScalacOptions 
+[1A[2K[9999D[31/75] scas.scalaCompilerClasspath 
+[1A[2K[9999D[32/75] scas.scalacPluginClasspath 
+[1A[2K[9999D[33/75] scas.compile 
+[info] compiling 96 Scala sources to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/out/scas/compile.dest/classes ...
+[warn] -- Warning: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/module/ArrayModule.scala:15:24 
+[warn] 15 |      if (x(i) <> y(i)) return false
+[warn]    |                        ^^^^^^^^^^^^
+[warn]    |Non local returns are no longer supported; use `boundary` and `boundary.break` in `scala.util` instead
+[warn] there were 3 deprecation warnings; re-run with -deprecation for details
+[warn] two warnings found
+[info] done compiling
+[34/75] scas.application.upstreamCompileOutput 
+[1A[2K[9999D[35/75] scas.application.sources 
+[1A[2K[9999D[36/75] scas.application.generatedSources 
+[1A[2K[9999D[37/75] scas.application.allSources 
+[1A[2K[9999D[38/75] scas.application.allSourceFiles 
+[1A[2K[9999D[39/75] scas.localClasspath 
+[1A[2K[9999D[40/75] scas.application.transitiveLocalClasspath 
+[1A[2K[9999D[41/75] scas.application.resources 
+[1A[2K[9999D[42/75] scas.application.unmanagedClasspath 
+[1A[2K[9999D[43/75] scas.application.platformSuffix 
+[1A[2K[9999D[44/75] scas.application.compileIvyDeps 
+[1A[2K[9999D[45/75] scas.application.transitiveCompileIvyDeps 
+[1A[2K[9999D[46/75] scas.application.ivyDeps 
+[1A[2K[9999D[47/75] scas.application.mandatoryIvyDeps.overridden.mill.scalalib.JavaModule.mandatoryIvyDeps 
+[1A[2K[9999D[48/75] scas.application.scalaOrganization 
+[1A[2K[9999D[49/75] scas.application.scalaLibraryIvyDeps 
+[1A[2K[9999D[50/75] scas.application.mandatoryIvyDeps 
+[1A[2K[9999D[51/75] scas.application.transitiveIvyDeps 
+[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps 
+[1A[2K[9999D[53/75] scas.application.compileClasspath 
+[1A[2K[9999D[54/75] scas.application.javacOptions 
+[1A[2K[9999D[55/75] scas.application.mandatoryScalacOptions 
+[1A[2K[9999D[56/75] scas.application.scalacPluginIvyDeps 
+[1A[2K[9999D[57/75] scas.application.enablePluginScalacOptions 
+[1A[2K[9999D[58/75] scas.application.scalacOptions 
+[1A[2K[9999D[59/75] scas.application.allScalacOptions 
+[1A[2K[9999D[60/75] scas.application.scalaCompilerClasspath 
+[1A[2K[9999D[61/75] scas.application.scalacPluginClasspath 
+[1A[2K[9999D[62/75] scas.application.compile 
+[info] compiling 21 Scala sources to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/out/scas/application/compile.dest/classes ...
+[warn] there was 1 deprecation warning; re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
+[63/75] scas.application.finalMainClassOpt 
+[1A[2K[9999D[64/75] scas.application.finalMainClass 
+[1A[2K[9999D[65/75] scas.application.localClasspath 
+[1A[2K[9999D[66/75] scas.application.runIvyDeps 
+[1A[2K[9999D[67/75] scas.application.resolvedRunIvyDeps 
+[1A[2K[9999D[68/75] scas.application.upstreamAssemblyClasspath 
+[1A[2K[9999D[69/75] scas.application.runClasspath 
+[1A[2K[9999D[70/75] scas.application.forkArgs 
+[1A[2K[9999D[71/75] scas.application.forkEnv.overridden.mill.scalalib.JavaModule.forkEnv 
+[1A[2K[9999D[72/75] scas.application.forkEnv 
+[1A[2K[9999D[73/75] scas.application.forkWorkingDir 
+[1A[2K[9999D[74/75] scas.application.runUseArgsFile 
+[1A[2K[9999D[75/75] scas.application.run 
+polypower.txt
+p: z + y + x + 1 
+q: 1771
+q1: 1771
+q2: 12341
+t: 4750
+modint.txt
+mod_polynomial.txt
+java.lang.NoClassDefFoundError: dotty/tools/dotc/core/unpickleScala2/Scala2Erasure$
+	at dotty.tools.dotc.core.TypeErasure.dotty$tools$dotc$core$TypeErasure$$apply(TypeErasure.scala:637)
+	at dotty.tools.dotc.core.TypeErasure.eraseResult(TypeErasure.scala:839)
+	at dotty.tools.dotc.core.TypeErasure.dotty$tools$dotc$core$TypeErasure$$apply(TypeErasure.scala:665)
+	at dotty.tools.dotc.core.TypeErasure.eraseResult(TypeErasure.scala:839)
+	at dotty.tools.dotc.core.TypeErasure.eraseInfo(TypeErasure.scala:776)
+	at dotty.tools.dotc.core.TypeErasure$.transformInfo(TypeErasure.scala:244)
+	at dotty.tools.dotc.transform.Erasure.transform(Erasure.scala:97)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:827)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Symbols$Symbol.recomputeDenot(Symbols.scala:120)
+	at dotty.tools.dotc.core.Symbols$Symbol.computeDenot(Symbols.scala:114)
+	at dotty.tools.dotc.core.Symbols$Symbol.denot(Symbols.scala:107)
+	at dotty.tools.dotc.core.Symbols$.toDenot(Symbols.scala:494)
+	at dotty.tools.dotc.transform.Mixin.needsTraitSetter(Mixin.scala:174)
+	at dotty.tools.dotc.transform.Mixin.transformSym$$anonfun$1(Mixin.scala:153)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.core.Scopes$Scope.foreach(Scopes.scala:93)
+	at dotty.tools.dotc.transform.Mixin.transformSym(Mixin.scala:157)
+	at dotty.tools.dotc.core.DenotTransformers$SymTransformer.transform(DenotTransformers.scala:70)
+	at dotty.tools.dotc.core.DenotTransformers$SymTransformer.transform$(DenotTransformers.scala:65)
+	at dotty.tools.dotc.transform.Mixin.transform(Mixin.scala:113)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:827)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.goForward$1(Denotations.scala:844)
+	at dotty.tools.dotc.core.Denotations$SingleDenotation.current(Denotations.scala:873)
+	at dotty.tools.dotc.core.Symbols$Symbol.recomputeDenot(Symbols.scala:120)
+	at dotty.tools.dotc.core.Symbols$Symbol.computeDenot(Symbols.scala:114)
+	at dotty.tools.dotc.core.Symbols$Symbol.denot(Symbols.scala:107)
+	at dotty.tools.dotc.core.Symbols$ClassSymbol.classDenot(Symbols.scala:481)
+	at dotty.tools.dotc.core.Symbols$.toClassDenot(Symbols.scala:497)
+	at dotty.tools.backend.jvm.BTypesFromSymbols.$anonfun$1(BTypesFromSymbols.scala:114)
+	at scala.collection.Iterator$$anon$10.nextCur(Iterator.scala:594)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:608)
+	at scala.collection.mutable.Growable.addAll(Growable.scala:61)
+	at scala.collection.mutable.Growable.addAll$(Growable.scala:57)
+	at scala.collection.immutable.SetBuilderImpl.addAll(Set.scala:396)
+	at scala.collection.immutable.Set$.from(Set.scala:353)
+	at scala.collection.IterableOnceOps.toSet(IterableOnce.scala:1295)
+	at scala.collection.IterableOnceOps.toSet$(IterableOnce.scala:1295)
+	at scala.collection.AbstractIterator.toSet(Iterator.scala:1300)
+	at dotty.tools.backend.jvm.BTypesFromSymbols.superInterfaces$1(BTypesFromSymbols.scala:114)
+	at dotty.tools.backend.jvm.BTypesFromSymbols.setClassInfo(BTypesFromSymbols.scala:122)
+	at dotty.tools.backend.jvm.BTypesFromSymbols.classBTypeFromSymbol$$anonfun$1(BTypesFromSymbols.scala:64)
+	at scala.collection.mutable.HashMap.getOrElse(HashMap.scala:436)
+	at dotty.tools.backend.jvm.BTypesFromSymbols.classBTypeFromSymbol(BTypesFromSymbols.scala:65)
+	at dotty.tools.backend.jvm.BCodeHelpers$BCInnerClassGen.getClassBType(BCodeHelpers.scala:177)
+	at dotty.tools.backend.jvm.BCodeHelpers$BCInnerClassGen.getClassBType$(BCodeHelpers.scala:129)
+	at dotty.tools.backend.jvm.BCodeSkelBuilder$PlainSkelBuilder.getClassBType(BCodeSkelBuilder.scala:74)
+	at dotty.tools.backend.jvm.BCodeHelpers.primitiveOrClassToBType$1$$anonfun$1(BCodeHelpers.scala:714)
+	at scala.collection.immutable.HashMap.getOrElse(HashMap.scala:678)
+	at dotty.tools.backend.jvm.BCodeHelpers.primitiveOrClassToBType$1(BCodeHelpers.scala:714)
+	at dotty.tools.backend.jvm.BCodeHelpers.dotty$tools$backend$jvm$BCodeHelpers$$typeToTypeKind(BCodeHelpers.scala:733)
+	at dotty.tools.backend.jvm.BCodeHelpers$BCInnerClassGen.toTypeKind(BCodeHelpers.scala:201)
+	at dotty.tools.backend.jvm.BCodeHelpers$BCInnerClassGen.toTypeKind$(BCodeHelpers.scala:129)
+	at dotty.tools.backend.jvm.BCodeSkelBuilder$PlainSkelBuilder.toTypeKind(BCodeSkelBuilder.scala:74)
+	at dotty.tools.backend.jvm.BCodeHelpers$BCInnerClassGen.asmMethodType(BCodeHelpers.scala:187)
+	at dotty.tools.backend.jvm.BCodeHelpers$BCInnerClassGen.asmMethodType$(BCodeHelpers.scala:129)
+	at dotty.tools.backend.jvm.BCodeSkelBuilder$PlainSkelBuilder.asmMethodType(BCodeSkelBuilder.scala:74)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genCallMethod(BCodeBodyBuilder.scala:1431)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genApply(BCodeBodyBuilder.scala:869)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genLoadTo(BCodeBodyBuilder.scala:382)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genLoadTo(BCodeBodyBuilder.scala:462)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genLoad(BCodeBodyBuilder.scala:303)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genLoadTo(BCodeBodyBuilder.scala:320)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genLoad(BCodeBodyBuilder.scala:303)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genStat(BCodeBodyBuilder.scala:117)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genBlockTo$$anonfun$1(BCodeBodyBuilder.scala:1087)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genBlockTo(BCodeBodyBuilder.scala:1087)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genLoadTo(BCodeBodyBuilder.scala:454)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genLoad(BCodeBodyBuilder.scala:303)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.loop$1(BCodeBodyBuilder.scala:1202)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genLoadArguments(BCodeBodyBuilder.scala:1209)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genApply(BCodeBodyBuilder.scala:832)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genLoadTo(BCodeBodyBuilder.scala:382)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genLoad(BCodeBodyBuilder.scala:303)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genStat(BCodeBodyBuilder.scala:88)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genBlockTo$$anonfun$1(BCodeBodyBuilder.scala:1087)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genBlockTo(BCodeBodyBuilder.scala:1087)
+	at dotty.tools.backend.jvm.BCodeBodyBuilder$PlainBodyBuilder.genLoadTo(BCodeBodyBuilder.scala:454)
+	at dotty.tools.backend.jvm.BCodeSkelBuilder$PlainSkelBuilder.emitNormalMethodBody$1(BCodeSkelBuilder.scala:827)
+	at dotty.tools.backend.jvm.BCodeSkelBuilder$PlainSkelBuilder.genDefDef(BCodeSkelBuilder.scala:850)
+	at dotty.tools.backend.jvm.BCodeSkelBuilder$PlainSkelBuilder.gen(BCodeSkelBuilder.scala:632)
+	at dotty.tools.backend.jvm.BCodeSkelBuilder$PlainSkelBuilder.gen$$anonfun$1(BCodeSkelBuilder.scala:638)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.backend.jvm.BCodeSkelBuilder$PlainSkelBuilder.gen(BCodeSkelBuilder.scala:638)
+	at dotty.tools.backend.jvm.BCodeSkelBuilder$PlainSkelBuilder.genPlainClass(BCodeSkelBuilder.scala:233)
+	at dotty.tools.backend.jvm.CodeGen.genClass(CodeGen.scala:138)
+	at dotty.tools.backend.jvm.CodeGen.genClassDef$1(CodeGen.scala:55)
+	at dotty.tools.backend.jvm.CodeGen.genClassDefs$1(CodeGen.scala:101)
+	at dotty.tools.backend.jvm.CodeGen.genClassDefs$1$$anonfun$1(CodeGen.scala:99)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.backend.jvm.CodeGen.genClassDefs$1(CodeGen.scala:99)
+	at dotty.tools.backend.jvm.CodeGen.genUnit(CodeGen.scala:104)
+	at dotty.tools.backend.jvm.GenBCode.run(GenBCode.scala:76)
+	at dotty.tools.dotc.core.Phases$Phase.runOn$$anonfun$1(Phases.scala:324)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at dotty.tools.dotc.core.Phases$Phase.runOn(Phases.scala:328)
+	at dotty.tools.backend.jvm.GenBCode.runOn(GenBCode.scala:87)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:246)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:262)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:270)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:279)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:67)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:279)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:200)
+	at dotty.tools.repl.ReplCompiler.compile(ReplCompiler.scala:87)
+	at dotty.tools.repl.ReplDriver.compile(ReplDriver.scala:307)
+	at dotty.tools.repl.ReplDriver.interpret(ReplDriver.scala:269)
+	at dotty.tools.repl.ReplDriver.run$$anonfun$1(ReplDriver.scala:177)
+	at dotty.tools.repl.ReplDriver.withRedirectedOutput(ReplDriver.scala:211)
+	at dotty.tools.repl.ReplDriver.runBody$$anonfun$1(ReplDriver.scala:185)
+	at dotty.tools.runner.ScalaClassLoader$.asContext(ScalaClassLoader.scala:80)
+	at dotty.tools.repl.ReplDriver.runBody(ReplDriver.scala:185)
+	at dotty.tools.repl.ReplDriver.run(ReplDriver.scala:178)
+	at dotty.tools.repl.ScriptEngine.eval(ScriptEngine.scala:40)
+	at java.scripting/javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at scas.test.Main$package$.$anonfun$1(Main.scala:14)
+	at scala.collection.immutable.ArraySeq.map(ArraySeq.scala:75)
+	at scala.collection.immutable.ArraySeq.map(ArraySeq.scala:35)
+	at scas.test.Main$package$.Main(Main.scala:22)
+	at scas.test.Main.main(Main.scala:8)
+Caused by: java.lang.ClassNotFoundException: dotty.tools.dotc.core.unpickleScala2.Scala2Erasure$
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 180 more
+Exception in thread "main" java.lang.NoClassDefFoundError: dotty/tools/repl/ReplDriver$ReplConsoleReporter$
+	at dotty.tools.repl.ReplDriver.ReplConsoleReporter$lzyINIT1(ReplDriver.scala:531)
+	at dotty.tools.repl.ReplDriver.ReplConsoleReporter(ReplDriver.scala:531)
+	at dotty.tools.repl.ReplDriver.printDiagnostic(ReplDriver.scala:540)
+	at dotty.tools.repl.ReplDriver.displayErrors$$anonfun$1(ReplDriver.scala:525)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.repl.ReplDriver.displayErrors(ReplDriver.scala:525)
+	at dotty.tools.repl.ReplDriver.compile$$anonfun$1(ReplDriver.scala:309)
+	at scala.util.Either.fold(Either.scala:190)
+	at dotty.tools.repl.ReplDriver.compile(ReplDriver.scala:346)
+	at dotty.tools.repl.ReplDriver.interpret(ReplDriver.scala:269)
+	at dotty.tools.repl.ReplDriver.run$$anonfun$1(ReplDriver.scala:177)
+	at dotty.tools.repl.ReplDriver.withRedirectedOutput(ReplDriver.scala:211)
+	at dotty.tools.repl.ReplDriver.runBody$$anonfun$1(ReplDriver.scala:185)
+	at dotty.tools.runner.ScalaClassLoader$.asContext(ScalaClassLoader.scala:80)
+	at dotty.tools.repl.ReplDriver.runBody(ReplDriver.scala:185)
+	at dotty.tools.repl.ReplDriver.run(ReplDriver.scala:178)
+	at dotty.tools.repl.ScriptEngine.eval(ScriptEngine.scala:40)
+	at java.scripting/javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at scas.test.Main$package$.$anonfun$1(Main.scala:14)
+	at scala.collection.immutable.ArraySeq.map(ArraySeq.scala:75)
+	at scala.collection.immutable.ArraySeq.map(ArraySeq.scala:35)
+	at scas.test.Main$package$.Main(Main.scala:22)
+	at scas.test.Main.main(Main.scala:8)
+Caused by: java.lang.ClassNotFoundException: dotty.tools.repl.ReplDriver$ReplConsoleReporter$
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 25 more
+1 targets failed
+scas.application.run subprocess failed
+[32mRerunning tests in scas because of a previous run failure.[0m
+[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT scas.application.test[0m
+[3/75] mill.scalalib.ZincWorkerModule.worker 
+[1A[2K[9999D[7/75] scas.sources 
+[1A[2K[9999D[12/75] scas.resources 
+[1A[2K[9999D[35/75] scas.application.sources 
+[1A[2K[9999D[41/75] scas.application.resources 
+[1A[2K[9999D[71/75] scas.application.forkEnv.overridden.mill.scalalib.JavaModule.forkEnv 
+[1A[2K[9999D[72/75] scas.application.forkEnv 
+[1A[2K[9999D[75/75] scas.application.run 
+polypower.txt
+p: z + y + x + 1 
+q: 1771
+q1: 1771
+q2: 12341
+t: 4150
+modint.txt
+mod_polynomial.txt
+index.txt
+rational_module.txt
+polynomial.txt
+math3.txt
+ringsbigint.txt
+poly_rings.txt
+product.txt
+rational.txt
+bigint.txt
+rational_polynomial.txt
+pp2.txt
+polypower_jaspp.txt
+p: z+y+x+1
+q: 1771
+q1: 1771
+q2: 12341
+t: 3650
+pp1.txt
+polypower_scas.txt
+p: 1+x+y+z
+q: 1771
+q1: 1771
+q2: 12341
+t: 3504
+poly.txt
+module.txt
+pp_jas.txt
+jasbigint.txt
+polypower_rings.txt
+p: 1+z+y+x
+q: 1771
+q1: 1771
+q2: 12341
+t: 936
+solvable_polynomial.txt
+success : 23, failure : 0
+[32m[SUCCESS scas][0m
+[32m[scas DONE RUNNING][0m
+[info] Test run dotty.communitybuild.CommunityBuildTestC finished: 0 failed, 0 ignored, 1 total, 137.689s
+[info] Test run dotty.communitybuild.CommunityBuildTestB started
+[info] Test run dotty.communitybuild.CommunityBuildTestB finished: 0 failed, 0 ignored, 0 total, 0.0s
+[info] Passed: Total 1, Failed 0, Errors 0, Passed 1
+[success] Total time: 202 s (03:22), completed Jun 14, 2023, 2:35:45 AM

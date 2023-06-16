@@ -1,0 +1,19 @@
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error] one error found
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error] one error found
+[error] error while loading Tuples,
+[error] ZipFile invalid LOC header (bad signature)
+[error] -- Error: library/src/scala/Tuple.scala:285:4 ----------------------------------
+[error] undefined: runtime.Tuples.apply # -1: TermRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class scala)),object runtime),object Tuples),apply) at inlining
+[error] -- Error: library/src/scala/Tuple.scala:299:4 ----------------------------------
+[error] undefined: runtime.Tuples.tail # -1: TermRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class scala)),object runtime),object Tuples),tail) at inlining
+[error] three errors found

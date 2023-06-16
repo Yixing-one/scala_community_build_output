@@ -1,0 +1,995 @@
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project scala_flexible_type_with_test_script-build-build from build.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/project/project
+[info] loading settings for project scala_flexible_type_with_test_script-build from build.sbt,plugins.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/project
+[info] loading settings for project scala3 from build.sbt ...
+[info] resolving key references (31394 settings) ...
+[info] set current project to scala3 (in build file:/Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] Wrote /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_sjs1_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/sbt-community-build-0.1.0-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/tasty/../out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/tasty-core_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/interfaces/target/scala3-interfaces-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/compiler/../out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-compiler_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/sbt-bridge/src/target/scala3-sbt-bridge-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/tasty-inspector/../out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-tasty-inspector_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/scaladoc/../out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scaladoc_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] :: delivering :: ch.epfl.lamp#sbt-community-build;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Wed Jun 14 04:18:17 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/ivy-0.1.0-SNAPSHOT.xml
+[info] :: delivering :: org.scala-lang#scala3-interfaces;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 04:18:17 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/interfaces/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/poms/sbt-community-build.pom
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/jars/sbt-community-build.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/srcs/sbt-community-build-sources.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/docs/sbt-community-build-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/ivys/ivy.xml
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-interfaces.pom
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-interfaces.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-interfaces-sources.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-interfaces-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-sbt-bridge;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 04:18:19 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/sbt-bridge/src/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-sbt-bridge.pom
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-sbt-bridge.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-sbt-bridge-sources.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-sbt-bridge-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] :: delivering :: org.scala-lang#tasty-core_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 04:18:22 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/poms/tasty-core_3.pom
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/jars/tasty-core_3.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/srcs/tasty-core_3-sources.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/docs/tasty-core_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-tasty-inspector_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 04:18:23 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-tasty-inspector_3.pom
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-tasty-inspector_3.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-tasty-inspector_3-sources.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-tasty-inspector_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scaladoc_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 04:18:23 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/poms/scaladoc_3.pom
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/jars/scaladoc_3.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scaladoc_3-sources.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/docs/scaladoc_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Flag -project-logo set repeatedly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Flag -project-footer set repeatedly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Flag -author set repeatedly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Flag -groups set repeatedly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Flag -default-template set repeatedly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -external-mappings set to .*scala/.*::scaladoc3::https://dotty.epfl.ch/api/ redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -external-mappings set to .*java/.*::javadoc::https://docs.oracle.com/javase/8/docs/api/ redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] :: delivering :: org.scala-lang#scala3-compiler_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 04:18:24 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-compiler_3.pom
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-compiler_3.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-compiler_3-sources.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-compiler_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] 21 |  def fromDigits(digits: String): T
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      ^
+[warn]    |      ^
+[warn]    |      No DRI found for query: MalformedNumber
+[warn]    |      No DRI found for query: MalformedNumber
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error]    |(Note: this can be resolved by using another name)
+[warn] 28 warnings found
+[warn] 14 warnings found
+[error] one error found
+[error] one error found
+[info] :: delivering :: org.scala-lang#scala3-library_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 04:18:44 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_3.pom
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_3.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_3-sources.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-library_sjs1_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 04:18:44 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_sjs1_3.pom
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_sjs1_3.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_sjs1_3-sources.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_sjs1_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Test run dotty.communitybuild.CommunityBuildTestA started
+[info] Test run dotty.communitybuild.CommunityBuildTestA finished: 0 failed, 0 ignored, 0 total, 0.001s
+[info] Test run dotty.communitybuild.CommunityBuildTestC started
+[info] Test dotty.communitybuild.CommunityBuildTestC.scalaPB started
+[32m[STARTING ScalaPB][0m
+[32m[DEPENDENCIES DONE, NOW ACTUALLY RUNNING ScalaPB][0m
+[32mBuilding ScalaPB with dotty-bootstrapped 3.3.1-RC1-bin-SNAPSHOT...[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls","-Yflexible-types");++3.3.1-RC1-bin-SNAPSHOT!; lensesJVM3/compile; runtimeJVM3/compile; grpcRuntimeJVM3/compile; compilerPluginJVM3/compile[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project scalapb-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/project
+[info] compiling 3 Scala sources to /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/project/target/scala-2.12/sbt-1.0/classes ...
+[info] done compiling
+[info] loading settings for project root from build.sbt,sonatype.sbt ...
+[info] resolving key references (48988 settings) ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info]    _____             _       _____  ____  
+[info]   / ____|           | |     |  __ \|  _ \ 
+[info]  | (___   ___   __ _| | __ _| |__) | |_) |
+[info]   \___ \ / __| / _` | |/ _` |  ___/|  _ < 
+[info]   ____) | (__ | (_| | | (_| | |    | |_) |
+[info]  |_____/ \___| \__,_|_|\__,_|_|    |____/  0.11.8+16-15e623e2-SNAPSHOT
+[info] 
+[info] Useful sbt tasks:
+[info] > fmt                - Run scalafmt on the entire project.
+[info] > e2eJVM2_12/test    - Run end-to-end for Scala 2.12
+[info] > e2eJVM2_13/test    - Run end-to-end for Scala 2.13
+[info] > e2eJVM3/test       - Run end-to-end for Scala 3
+[info] > docs/mdoc --watch  - Generate docs markdown through mdoc. See docs/README.md
+[warn] there are 2 keys that are not used by any other settings/tasks:
+[warn]  
+[warn] * docs / ghpagesBranch
+[warn]   +- /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/build.sbt:434
+[warn] * docs / gitRemoteRepo
+[warn]   +- /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/build.sbt:433
+[warn]  
+[warn] note: a setting might still be used by a command; to exclude a key from this `lintUnused` check
+[warn] either append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key
+[info] Defining Global / testOptions
+[info] The new value will be used by Test / test / testOptions, Test / testOnly / testOptions and 141 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info]    _____             _       _____  ____  
+[info]   / ____|           | |     |  __ \|  _ \ 
+[info]  | (___   ___   __ _| | __ _| |__) | |_) |
+[info]   \___ \ / __| / _` | |/ _` |  ___/|  _ < 
+[info]   ____) | (__ | (_| | | (_| | |    | |_) |
+[info]  |_____/ \___| \__,_|_|\__,_|_|    |____/  0.11.8+16-15e623e2-SNAPSHOT
+[info] 
+[info] Useful sbt tasks:
+[info] > fmt                - Run scalafmt on the entire project.
+[info] > e2eJVM2_12/test    - Run end-to-end for Scala 2.12
+[info] > e2eJVM2_13/test    - Run end-to-end for Scala 2.13
+[info] > e2eJVM3/test       - Run end-to-end for Scala 3
+[info] > docs/mdoc --watch  - Generate docs markdown through mdoc. See docs/README.md
+[success] Total time: 0 s, completed Jun 14, 2023, 4:19:19 AM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 525 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info]    _____             _       _____  ____  
+[info]   / ____|           | |     |  __ \|  _ \ 
+[info]  | (___   ___   __ _| | __ _| |__) | |_) |
+[info]   \___ \ / __| / _` | |/ _` |  ___/|  _ < 
+[info]   ____) | (__ | (_| | | (_| | |    | |_) |
+[info]  |_____/ \___| \__,_|_|\__,_|_|    |____/  0.11.8+16-15e623e2-SNAPSHOT
+[info] 
+[info] Useful sbt tasks:
+[info] > fmt                - Run scalafmt on the entire project.
+[info] > e2eJVM2_12/test    - Run end-to-end for Scala 2.12
+[info] > e2eJVM2_13/test    - Run end-to-end for Scala 2.13
+[info] > e2eJVM3/test       - Run end-to-end for Scala 3
+[info] > docs/mdoc --watch  - Generate docs markdown through mdoc. See docs/README.md
+[info] Defining Global / updateOptions
+[info] The new value will be used by compilerPluginJVM2_12 / dependencyTreeIgnoreMissingUpdate / updateOptions, compilerPluginJVM2_12 / ivyConfiguration and 141 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info]    _____             _       _____  ____  
+[info]   / ____|           | |     |  __ \|  _ \ 
+[info]  | (___   ___   __ _| | __ _| |__) | |_) |
+[info]   \___ \ / __| / _` | |/ _` |  ___/|  _ < 
+[info]   ____) | (__ | (_| | | (_| | |    | |_) |
+[info]  |_____/ \___| \__,_|_|\__,_|_|    |____/  0.11.8+16-15e623e2-SNAPSHOT
+[info] 
+[info] Useful sbt tasks:
+[info] > fmt                - Run scalafmt on the entire project.
+[info] > e2eJVM2_12/test    - Run end-to-end for Scala 2.12
+[info] > e2eJVM2_13/test    - Run end-to-end for Scala 2.13
+[info] > e2eJVM3/test       - Run end-to-end for Scala 3
+[info] > docs/mdoc --watch  - Generate docs markdown through mdoc. See docs/README.md
+[info] Defining Global / scalacOptions
+[info] The new value will be used by Compile / scalacOptions, compilerPluginJVM2_12 / scalacOptions and 45 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info]    _____             _       _____  ____  
+[info]   / ____|           | |     |  __ \|  _ \ 
+[info]  | (___   ___   __ _| | __ _| |__) | |_) |
+[info]   \___ \ / __| / _` | |/ _` |  ___/|  _ < 
+[info]   ____) | (__ | (_| | | (_| | |    | |_) |
+[info]  |_____/ \___| \__,_|_|\__,_|_|    |____/  0.11.8+16-15e623e2-SNAPSHOT
+[info] 
+[info] Useful sbt tasks:
+[info] > fmt                - Run scalafmt on the entire project.
+[info] > e2eJVM2_12/test    - Run end-to-end for Scala 2.12
+[info] > e2eJVM2_13/test    - Run end-to-end for Scala 2.13
+[info] > e2eJVM3/test       - Run end-to-end for Scala 3
+[info] > docs/mdoc --watch  - Generate docs markdown through mdoc. See docs/README.md
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info]    _____             _       _____  ____  
+[info]   / ____|           | |     |  __ \|  _ \ 
+[info]  | (___   ___   __ _| | __ _| |__) | |_) |
+[info]   \___ \ / __| / _` | |/ _` |  ___/|  _ < 
+[info]   ____) | (__ | (_| | | (_| | |    | |_) |
+[info]  |_____/ \___| \__,_|_|\__,_|_|    |____/  0.11.8+16-15e623e2-SNAPSHOT
+[info] 
+[info] Useful sbt tasks:
+[info] > fmt                - Run scalafmt on the entire project.
+[info] > e2eJVM2_12/test    - Run end-to-end for Scala 2.12
+[info] > e2eJVM2_13/test    - Run end-to-end for Scala 2.13
+[info] > e2eJVM3/test       - Run end-to-end for Scala 3
+[info] > docs/mdoc --watch  - Generate docs markdown through mdoc. See docs/README.md
+[success] Total time: 7 s, completed Jun 14, 2023, 4:19:39 AM
+[error] error while loading Repeated,
+[error] ZipFile invalid LOC header (bad signature)
+[error] -- Error: /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/FieldMaskUtil.scala:174:24 
+[error] 174 |    fromFieldNumbers[M](fieldNumbers: _*).get
+[error]     |                        ^^^^^^^^^^^^^^^^
+[error]     |Sequence argument type annotation `*` cannot be used here:
+[error]     |the corresponding parameter has type Seq[Int] @<root> which is not a repeated parameter type
+[error] error while loading SourceFile,
+[error] ZipFile invalid LOC header (bad signature)
+[error] error while loading AnnotationDefault,
+[error] ZipFile invalid LOC header (bad signature)
+java.lang.NoClassDefFoundError: scala/runtime/Scala3RunTime$ while typechecking /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/GeneratedMessageCompanion.scala
+Exception while compiling /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/jvm-native/scalapb/descriptors/ConcurrentWeakReferenceMap.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/jvm-native/scalapb/textformat/NumberUtils.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala-3/scalapb/descriptors/ReadsCompat.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala-3/scalapb/internal/compat.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/AnyMethods.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/CollectionAdapter.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/DurationCompanionMethods.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/DurationConverters.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/DurationMethods.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/Encoding.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/FieldMaskTree.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/FieldMaskUtil.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/GeneratedExtension.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/GeneratedMessageCompanion.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/LimitedInputStream.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/LiteParser.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/MessageBuilder.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/StructUtils.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/TextFormat.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/TimestampCompanionMethods.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/TimestampConverters.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/TimestampMethods.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/TypeMapper.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/UnknownFieldSet.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/descriptors/Descriptor.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/descriptors/PValue.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/descriptors/SourceCodePath.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/options/Collection.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/options/EnumOptions.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/options/EnumValueOptions.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/options/FieldOptions.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/options/FieldTransformation.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/options/MatchType.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/options/MessageOptions.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/options/OneofOptions.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/options/PreprocessorOutput.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/options/ScalaPbOptions.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/options/ScalapbProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/package.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/textformat/AstUtils.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/textformat/Parser.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/textformat/Printer.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/textformat/ProtoAsciiParsing.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/textformat/ProtoAst.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/textformat/TextFormatUtils.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/textformat/TextGenerator.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scala/scalapb/textformat/Tokenizer.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/any/Any.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/any/AnyProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/api/Api.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/api/ApiProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/api/Method.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/api/Mixin.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/compiler/plugin/CodeGeneratorRequest.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/compiler/plugin/CodeGeneratorResponse.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/compiler/plugin/PluginProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/compiler/plugin/Version.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/DescriptorProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/DescriptorProtoCompanion.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/EnumDescriptorProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/EnumOptions.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/EnumValueDescriptorProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/EnumValueOptions.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/ExtensionRangeOptions.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/FieldDescriptorProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/FieldOptions.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/FileDescriptorProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/FileDescriptorSet.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/FileOptions.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/GeneratedCodeInfo.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/MessageOptions.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/MethodDescriptorProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/MethodOptions.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/OneofDescriptorProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/OneofOptions.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/ServiceDescriptorProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/ServiceOptions.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/SourceCodeInfo.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/descriptor/UninterpretedOption.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/duration/Duration.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/duration/DurationProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/empty/Empty.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/empty/EmptyProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/field_mask/FieldMask.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/field_mask/FieldMaskProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/source_context/SourceContext.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/source_context/SourceContextProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/struct/ListValue.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/struct/NullValue.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/struct/Struct.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/struct/StructProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/struct/Value.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/timestamp/Timestamp.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/timestamp/TimestampProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/type/Enum.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/type/EnumValue.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/type/Field.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/type/OptionProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/type/Syntax.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/type/Type.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/type/TypeProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/wrappers/BoolValue.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/wrappers/BytesValue.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/wrappers/DoubleValue.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/wrappers/FloatValue.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/wrappers/Int32Value.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/wrappers/Int64Value.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/wrappers/StringValue.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/wrappers/UInt32Value.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/wrappers/UInt64Value.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/com/google/protobuf/wrappers/WrappersProto.scala, /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/src/main/scalajvm/scalapb/textformat/Constants.scala
+[error] ## Exception when compiling 113 sources to /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime/target/jvm-3/classes
+[error] java.lang.NoClassDefFoundError: scala/runtime/Scala3RunTime$
+[error] dotty.tools.dotc.core.Symbols$Symbol.asTerm(Symbols.scala:169)
+[error] dotty.tools.dotc.ast.tpd$.New(tpd.scala:522)
+[error] dotty.tools.dotc.core.Annotations$Annotation$.apply(Annotations.scala:211)
+[error] dotty.tools.dotc.core.Annotations$Annotation$.apply(Annotations.scala:205)
+[error] dotty.tools.dotc.core.classfile.ClassfileParser.parseAttribute$1(ClassfileParser.scala:767)
+[error] dotty.tools.dotc.core.classfile.ClassfileParser.parseAttributes$$anonfun$1(ClassfileParser.scala:825)
+[error] scala.runtime.java8.JFunction1$mcVI$sp.apply(JFunction1$mcVI$sp.scala:18)
+[error] scala.collection.immutable.Range.foreach(Range.scala:190)
+[error] dotty.tools.dotc.core.classfile.ClassfileParser.parseAttributes(ClassfileParser.scala:825)
+[error] dotty.tools.dotc.core.classfile.ClassfileParser.parseMember(ClassfileParser.scala:256)
+[error] dotty.tools.dotc.core.classfile.ClassfileParser.parseClass$$anonfun$2(ClassfileParser.scala:207)
+[error] scala.runtime.java8.JFunction1$mcVI$sp.apply(JFunction1$mcVI$sp.scala:18)
+[error] scala.collection.immutable.Range.foreach(Range.scala:190)
+[error] dotty.tools.dotc.core.classfile.ClassfileParser.parseClass(ClassfileParser.scala:207)
+[error] dotty.tools.dotc.core.classfile.ClassfileParser.$anonfun$1(ClassfileParser.scala:87)
+[error] dotty.tools.dotc.core.classfile.ClassfileParser.run(ClassfileParser.scala:82)
+[error] dotty.tools.dotc.core.ClassfileLoader.load(SymbolLoaders.scala:412)
+[error] dotty.tools.dotc.core.ClassfileLoader.doComplete(SymbolLoaders.scala:407)
+[error] dotty.tools.dotc.core.SymbolLoader.complete(SymbolLoaders.scala:341)
+[error] dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:174)
+[error] dotty.tools.dotc.core.SymDenotations$SymDenotation.completeOnce(SymDenotations.scala:385)
+[error] dotty.tools.dotc.core.SymDenotations$SymDenotation.isAbsent(SymDenotations.scala:615)
+[error] dotty.tools.dotc.core.SymDenotations$ClassDenotation.derivesFrom(SymDenotations.scala:1974)
+[error] dotty.tools.dotc.core.Annotations$Annotation.matches(Annotations.scala:26)
+[error] dotty.tools.dotc.core.SymDenotations$SymDenotation.dropOtherAnnotations(SymDenotations.scala:307)
+[error] dotty.tools.dotc.core.SymDenotations$SymDenotation.getAnnotation(SymDenotations.scala:269)
+[error] dotty.tools.dotc.core.SymDenotations$SymDenotation.targetName(SymDenotations.scala:573)
+[error] dotty.tools.dotc.core.Denotations$SingleDenotation.matches(Denotations.scala:1007)
+[error] dotty.tools.dotc.core.Denotations$Denotation.mergeDenot$1(Denotations.scala:409)
+[error] dotty.tools.dotc.core.Denotations$Denotation.meet(Denotations.scala:499)
+[error] dotty.tools.dotc.core.Denotations$DenotUnion.toDenot(Denotations.scala:1237)
+[error] dotty.tools.dotc.core.Denotations$DenotUnion.toDenot(Denotations.scala:1237)
+[error] dotty.tools.dotc.core.Denotations$DenotUnion.toDenot(Denotations.scala:1237)
+[error] dotty.tools.dotc.core.Denotations$DenotUnion.toDenot(Denotations.scala:1237)
+[error] dotty.tools.dotc.core.Denotations$DenotUnion.toDenot(Denotations.scala:1237)
+[error] dotty.tools.dotc.core.Denotations$DenotUnion.toDenot(Denotations.scala:1237)
+[error] dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2141)
+[error] dotty.tools.dotc.core.Types$Type.go$1(Types.scala:692)
+[error] dotty.tools.dotc.core.Types$Type.findMember(Types.scala:878)
+[error] dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:674)
+[error] dotty.tools.dotc.core.Types$Type.member(Types.scala:658)
+[error] dotty.tools.dotc.typer.ProtoTypes$SelectionProto.liftedTree1$1(ProtoTypes.scala:206)
+[error] dotty.tools.dotc.typer.ProtoTypes$SelectionProto.isMatchedBy(ProtoTypes.scala:228)
+[error] dotty.tools.dotc.core.TypeComparer.isMatchedByProto(TypeComparer.scala:2062)
+[error] dotty.tools.dotc.core.TypeComparer.firstTry$1(TypeComparer.scala:339)
+[error] dotty.tools.dotc.core.TypeComparer.recur(TypeComparer.scala:1476)
+[error] dotty.tools.dotc.core.TypeComparer.isSubType(TypeComparer.scala:208)
+[error] dotty.tools.dotc.core.TypeComparer.isSubType(TypeComparer.scala:218)
+[error] dotty.tools.dotc.core.TypeComparer.topLevelSubType(TypeComparer.scala:128)
+[error] dotty.tools.dotc.core.TypeComparer.testSubType(TypeComparer.scala:144)
+[error] dotty.tools.dotc.core.TypeComparer$.testSubType(TypeComparer.scala:2982)
+[error] dotty.tools.dotc.typer.Typer.adaptNoArgsOther$1(Typer.scala:3966)
+[error] dotty.tools.dotc.typer.Typer.adaptNoArgs$1(Typer.scala:4048)
+[error] dotty.tools.dotc.typer.Typer.adapt1(Typer.scala:4265)
+[error] dotty.tools.dotc.typer.Typer.adapt(Typer.scala:3573)
+[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
+[error] dotty.tools.dotc.typer.Typer.typeSelectOnTerm$1(Typer.scala:752)
+[error] dotty.tools.dotc.typer.Typer.typedSelect(Typer.scala:790)
+[error] dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3004)
+[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
+[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
+[error] dotty.tools.dotc.typer.Applications.realApply$1(Applications.scala:941)
+[error] dotty.tools.dotc.typer.Applications.typedApply(Applications.scala:1101)
+[error] dotty.tools.dotc.typer.Applications.typedApply$(Applications.scala:352)
+[error] dotty.tools.dotc.typer.Typer.typedApply(Typer.scala:116)
+[error] dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3035)
+[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
+[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
+[error] dotty.tools.dotc.typer.Typer.typedValDef(Typer.scala:2417)
+[error] dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3008)
+[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
+[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
+[error] dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
+[error] dotty.tools.dotc.typer.Typer.typedBlockStats(Typer.scala:1159)
+[error] dotty.tools.dotc.typer.Typer.typedBlock(Typer.scala:1163)
+[error] dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3043)
+[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
+[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
+[error] dotty.tools.dotc.typer.Typer.$anonfun$57(Typer.scala:2473)
+[error] dotty.tools.dotc.inlines.PrepareInlineable$.dropInlineIfError(PrepareInlineable.scala:250)
+[error] dotty.tools.dotc.typer.Typer.typedDefDef(Typer.scala:2473)
+[error] dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3011)
+[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
+[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
+[error] dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
+[error] dotty.tools.dotc.typer.Typer.typedClassDef(Typer.scala:2656)
+[error] dotty.tools.dotc.typer.Typer.typedTypeOrClassDef$1(Typer.scala:3023)
+[error] dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3027)
+[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
+[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
+[error] dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
+[error] dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2799)
+[error] dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3068)
+[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
+[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
+[error] dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$1(TyperPhase.scala:44)
+[error] dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$adapted$1(TyperPhase.scala:54)
+[error] scala.Function0.apply$mcV$sp(Function0.scala:42)
+[error] dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:437)
+[error] dotty.tools.dotc.typer.TyperPhase.typeCheck(TyperPhase.scala:54)
+[error] dotty.tools.dotc.typer.TyperPhase.runOn$$anonfun$3(TyperPhase.scala:88)
+[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+[error] scala.collection.immutable.List.foreach(List.scala:333)
+[error] dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:88)
+[error] dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:246)
+[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+[error] scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
+[error] dotty.tools.dotc.Run.runPhases$1(Run.scala:262)
+[error] dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:270)
+[error] dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:279)
+[error] dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:67)
+[error] dotty.tools.dotc.Run.compileUnits(Run.scala:279)
+[error] dotty.tools.dotc.Run.compileSources(Run.scala:194)
+[error] dotty.tools.dotc.Run.compile(Run.scala:179)
+[error] dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+[error] dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:88)
+[error] dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+[error] sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:193)
+[error] scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:248)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:183)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
+[error] sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:209)
+[error] sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:534)
+[error] sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:534)
+[error] sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:179)
+[error] sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:177)
+[error] sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:463)
+[error] sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
+[error] sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
+[error] sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
+[error] sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
+[error] sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:418)
+[error] sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:506)
+[error] sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:405)
+[error] sbt.internal.inc.Incremental$.apply(Incremental.scala:171)
+[error] sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:534)
+[error] sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:488)
+[error] sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
+[error] sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:425)
+[error] sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
+[error] sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2363)
+[error] sbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2313)
+[error] sbt.internal.server.BspCompileTask$.$anonfun$compute$1(BspCompileTask.scala:30)
+[error] sbt.internal.io.Retry$.apply(Retry.scala:46)
+[error] sbt.internal.io.Retry$.apply(Retry.scala:28)
+[error] sbt.internal.io.Retry$.apply(Retry.scala:23)
+[error] sbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:30)
+[error] sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2311)
+[error] scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] sbt.Execute.work(Execute.scala:291)
+[error] sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[error] java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[error] java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[error] java.base/java.lang.Thread.run(Unknown Source)
+[error]            
+[error] java.lang.NoClassDefFoundError: scala/runtime/Scala3RunTime$
+[error] 	at dotty.tools.dotc.core.Symbols$Symbol.asTerm(Symbols.scala:169)
+[error] 	at dotty.tools.dotc.ast.tpd$.New(tpd.scala:522)
+[error] 	at dotty.tools.dotc.core.Annotations$Annotation$.apply(Annotations.scala:211)
+[error] 	at dotty.tools.dotc.core.Annotations$Annotation$.apply(Annotations.scala:205)
+[error] 	at dotty.tools.dotc.core.classfile.ClassfileParser.parseAttribute$1(ClassfileParser.scala:767)
+[error] 	at dotty.tools.dotc.core.classfile.ClassfileParser.parseAttributes$$anonfun$1(ClassfileParser.scala:825)
+[error] 	at scala.runtime.java8.JFunction1$mcVI$sp.apply(JFunction1$mcVI$sp.scala:18)
+[error] 	at scala.collection.immutable.Range.foreach(Range.scala:190)
+[error] 	at dotty.tools.dotc.core.classfile.ClassfileParser.parseAttributes(ClassfileParser.scala:825)
+[error] 	at dotty.tools.dotc.core.classfile.ClassfileParser.parseMember(ClassfileParser.scala:256)
+[error] 	at dotty.tools.dotc.core.classfile.ClassfileParser.parseClass$$anonfun$2(ClassfileParser.scala:207)
+[error] 	at scala.runtime.java8.JFunction1$mcVI$sp.apply(JFunction1$mcVI$sp.scala:18)
+[error] 	at scala.collection.immutable.Range.foreach(Range.scala:190)
+[error] 	at dotty.tools.dotc.core.classfile.ClassfileParser.parseClass(ClassfileParser.scala:207)
+[error] 	at dotty.tools.dotc.core.classfile.ClassfileParser.$anonfun$1(ClassfileParser.scala:87)
+[error] 	at dotty.tools.dotc.core.classfile.ClassfileParser.run(ClassfileParser.scala:82)
+[error] 	at dotty.tools.dotc.core.ClassfileLoader.load(SymbolLoaders.scala:412)
+[error] 	at dotty.tools.dotc.core.ClassfileLoader.doComplete(SymbolLoaders.scala:407)
+[error] 	at dotty.tools.dotc.core.SymbolLoader.complete(SymbolLoaders.scala:341)
+[error] 	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:174)
+[error] 	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeOnce(SymDenotations.scala:385)
+[error] 	at dotty.tools.dotc.core.SymDenotations$SymDenotation.isAbsent(SymDenotations.scala:615)
+[error] 	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.derivesFrom(SymDenotations.scala:1974)
+[error] 	at dotty.tools.dotc.core.Annotations$Annotation.matches(Annotations.scala:26)
+[error] 	at dotty.tools.dotc.core.SymDenotations$SymDenotation.dropOtherAnnotations(SymDenotations.scala:307)
+[error] 	at dotty.tools.dotc.core.SymDenotations$SymDenotation.getAnnotation(SymDenotations.scala:269)
+[error] 	at dotty.tools.dotc.core.SymDenotations$SymDenotation.targetName(SymDenotations.scala:573)
+[error] 	at dotty.tools.dotc.core.Denotations$SingleDenotation.matches(Denotations.scala:1007)
+[error] 	at dotty.tools.dotc.core.Denotations$Denotation.mergeDenot$1(Denotations.scala:409)
+[error] 	at dotty.tools.dotc.core.Denotations$Denotation.meet(Denotations.scala:499)
+[error] 	at dotty.tools.dotc.core.Denotations$DenotUnion.toDenot(Denotations.scala:1237)
+[error] 	at dotty.tools.dotc.core.Denotations$DenotUnion.toDenot(Denotations.scala:1237)
+[error] 	at dotty.tools.dotc.core.Denotations$DenotUnion.toDenot(Denotations.scala:1237)
+[error] 	at dotty.tools.dotc.core.Denotations$DenotUnion.toDenot(Denotations.scala:1237)
+[error] 	at dotty.tools.dotc.core.Denotations$DenotUnion.toDenot(Denotations.scala:1237)
+[error] 	at dotty.tools.dotc.core.Denotations$DenotUnion.toDenot(Denotations.scala:1237)
+[error] 	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2141)
+[error] 	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:692)
+[error] 	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:878)
+[error] 	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:674)
+[error] 	at dotty.tools.dotc.core.Types$Type.member(Types.scala:658)
+[error] 	at dotty.tools.dotc.typer.ProtoTypes$SelectionProto.liftedTree1$1(ProtoTypes.scala:206)
+[error] 	at dotty.tools.dotc.typer.ProtoTypes$SelectionProto.isMatchedBy(ProtoTypes.scala:228)
+[error] 	at dotty.tools.dotc.core.TypeComparer.isMatchedByProto(TypeComparer.scala:2062)
+[error] 	at dotty.tools.dotc.core.TypeComparer.firstTry$1(TypeComparer.scala:339)
+[error] 	at dotty.tools.dotc.core.TypeComparer.recur(TypeComparer.scala:1476)
+[error] 	at dotty.tools.dotc.core.TypeComparer.isSubType(TypeComparer.scala:208)
+[error] 	at dotty.tools.dotc.core.TypeComparer.isSubType(TypeComparer.scala:218)
+[error] 	at dotty.tools.dotc.core.TypeComparer.topLevelSubType(TypeComparer.scala:128)
+[error] 	at dotty.tools.dotc.core.TypeComparer.testSubType(TypeComparer.scala:144)
+[error] 	at dotty.tools.dotc.core.TypeComparer$.testSubType(TypeComparer.scala:2982)
+[error] 	at dotty.tools.dotc.typer.Typer.adaptNoArgsOther$1(Typer.scala:3966)
+[error] 	at dotty.tools.dotc.typer.Typer.adaptNoArgs$1(Typer.scala:4048)
+[error] 	at dotty.tools.dotc.typer.Typer.adapt1(Typer.scala:4265)
+[error] 	at dotty.tools.dotc.typer.Typer.adapt(Typer.scala:3573)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] 	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
+[error] 	at dotty.tools.dotc.typer.Typer.typeSelectOnTerm$1(Typer.scala:752)
+[error] 	at dotty.tools.dotc.typer.Typer.typedSelect(Typer.scala:790)
+[error] 	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3004)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] 	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
+[error] 	at dotty.tools.dotc.typer.Applications.realApply$1(Applications.scala:941)
+[error] 	at dotty.tools.dotc.typer.Applications.typedApply(Applications.scala:1101)
+[error] 	at dotty.tools.dotc.typer.Applications.typedApply$(Applications.scala:352)
+[error] 	at dotty.tools.dotc.typer.Typer.typedApply(Typer.scala:116)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3035)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] 	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
+[error] 	at dotty.tools.dotc.typer.Typer.typedValDef(Typer.scala:2417)
+[error] 	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3008)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] 	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
+[error] 	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
+[error] 	at dotty.tools.dotc.typer.Typer.typedBlockStats(Typer.scala:1159)
+[error] 	at dotty.tools.dotc.typer.Typer.typedBlock(Typer.scala:1163)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3043)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] 	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
+[error] 	at dotty.tools.dotc.typer.Typer.$anonfun$57(Typer.scala:2473)
+[error] 	at dotty.tools.dotc.inlines.PrepareInlineable$.dropInlineIfError(PrepareInlineable.scala:250)
+[error] 	at dotty.tools.dotc.typer.Typer.typedDefDef(Typer.scala:2473)
+[error] 	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3011)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] 	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
+[error] 	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
+[error] 	at dotty.tools.dotc.typer.Typer.typedClassDef(Typer.scala:2656)
+[error] 	at dotty.tools.dotc.typer.Typer.typedTypeOrClassDef$1(Typer.scala:3023)
+[error] 	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3027)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] 	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
+[error] 	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
+[error] 	at dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2799)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3068)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] 	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
+[error] 	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$1(TyperPhase.scala:44)
+[error] 	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$adapted$1(TyperPhase.scala:54)
+[error] 	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+[error] 	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:437)
+[error] 	at dotty.tools.dotc.typer.TyperPhase.typeCheck(TyperPhase.scala:54)
+[error] 	at dotty.tools.dotc.typer.TyperPhase.runOn$$anonfun$3(TyperPhase.scala:88)
+[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+[error] 	at scala.collection.immutable.List.foreach(List.scala:333)
+[error] 	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:88)
+[error] 	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:246)
+[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+[error] 	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
+[error] 	at dotty.tools.dotc.Run.runPhases$1(Run.scala:262)
+[error] 	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:270)
+[error] 	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:279)
+[error] 	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:67)
+[error] 	at dotty.tools.dotc.Run.compileUnits(Run.scala:279)
+[error] 	at dotty.tools.dotc.Run.compileSources(Run.scala:194)
+[error] 	at dotty.tools.dotc.Run.compile(Run.scala:179)
+[error] 	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+[error] 	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:88)
+[error] 	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+[error] 	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:193)
+[error] 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:248)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:183)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
+[error] 	at sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:209)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:179)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:177)
+[error] 	at sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:463)
+[error] 	at sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
+[error] 	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
+[error] 	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
+[error] 	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:418)
+[error] 	at sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:506)
+[error] 	at sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:405)
+[error] 	at sbt.internal.inc.Incremental$.apply(Incremental.scala:171)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:488)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:425)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
+[error] 	at sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2363)
+[error] 	at sbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2313)
+[error] 	at sbt.internal.server.BspCompileTask$.$anonfun$compute$1(BspCompileTask.scala:30)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:46)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:28)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:23)
+[error] 	at sbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:30)
+[error] 	at sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2311)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[error] 	at java.base/java.lang.Thread.run(Unknown Source)
+[error] Caused by: java.lang.ClassNotFoundException: scala.runtime.Scala3RunTime$
+[error] 	at java.base/java.net.URLClassLoader.findClass(Unknown Source)
+[error] 	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+[error] 	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+[error] 	at dotty.tools.dotc.core.Symbols$Symbol.asTerm(Symbols.scala:169)
+[error] 	at dotty.tools.dotc.ast.tpd$.New(tpd.scala:522)
+[error] 	at dotty.tools.dotc.core.Annotations$Annotation$.apply(Annotations.scala:211)
+[error] 	at dotty.tools.dotc.core.Annotations$Annotation$.apply(Annotations.scala:205)
+[error] 	at dotty.tools.dotc.core.classfile.ClassfileParser.parseAttribute$1(ClassfileParser.scala:767)
+[error] 	at dotty.tools.dotc.core.classfile.ClassfileParser.parseAttributes$$anonfun$1(ClassfileParser.scala:825)
+[error] 	at scala.runtime.java8.JFunction1$mcVI$sp.apply(JFunction1$mcVI$sp.scala:18)
+[error] 	at scala.collection.immutable.Range.foreach(Range.scala:190)
+[error] 	at dotty.tools.dotc.core.classfile.ClassfileParser.parseAttributes(ClassfileParser.scala:825)
+[error] 	at dotty.tools.dotc.core.classfile.ClassfileParser.parseMember(ClassfileParser.scala:256)
+[error] 	at dotty.tools.dotc.core.classfile.ClassfileParser.parseClass$$anonfun$2(ClassfileParser.scala:207)
+[error] 	at scala.runtime.java8.JFunction1$mcVI$sp.apply(JFunction1$mcVI$sp.scala:18)
+[error] 	at scala.collection.immutable.Range.foreach(Range.scala:190)
+[error] 	at dotty.tools.dotc.core.classfile.ClassfileParser.parseClass(ClassfileParser.scala:207)
+[error] 	at dotty.tools.dotc.core.classfile.ClassfileParser.$anonfun$1(ClassfileParser.scala:87)
+[error] 	at dotty.tools.dotc.core.classfile.ClassfileParser.run(ClassfileParser.scala:82)
+[error] 	at dotty.tools.dotc.core.ClassfileLoader.load(SymbolLoaders.scala:412)
+[error] 	at dotty.tools.dotc.core.ClassfileLoader.doComplete(SymbolLoaders.scala:407)
+[error] 	at dotty.tools.dotc.core.SymbolLoader.complete(SymbolLoaders.scala:341)
+[error] 	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:174)
+[error] 	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeOnce(SymDenotations.scala:385)
+[error] 	at dotty.tools.dotc.core.SymDenotations$SymDenotation.isAbsent(SymDenotations.scala:615)
+[error] 	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.derivesFrom(SymDenotations.scala:1974)
+[error] 	at dotty.tools.dotc.core.Annotations$Annotation.matches(Annotations.scala:26)
+[error] 	at dotty.tools.dotc.core.SymDenotations$SymDenotation.dropOtherAnnotations(SymDenotations.scala:307)
+[error] 	at dotty.tools.dotc.core.SymDenotations$SymDenotation.getAnnotation(SymDenotations.scala:269)
+[error] 	at dotty.tools.dotc.core.SymDenotations$SymDenotation.targetName(SymDenotations.scala:573)
+[error] 	at dotty.tools.dotc.core.Denotations$SingleDenotation.matches(Denotations.scala:1007)
+[error] 	at dotty.tools.dotc.core.Denotations$Denotation.mergeDenot$1(Denotations.scala:409)
+[error] 	at dotty.tools.dotc.core.Denotations$Denotation.meet(Denotations.scala:499)
+[error] 	at dotty.tools.dotc.core.Denotations$DenotUnion.toDenot(Denotations.scala:1237)
+[error] 	at dotty.tools.dotc.core.Denotations$DenotUnion.toDenot(Denotations.scala:1237)
+[error] 	at dotty.tools.dotc.core.Denotations$DenotUnion.toDenot(Denotations.scala:1237)
+[error] 	at dotty.tools.dotc.core.Denotations$DenotUnion.toDenot(Denotations.scala:1237)
+[error] 	at dotty.tools.dotc.core.Denotations$DenotUnion.toDenot(Denotations.scala:1237)
+[error] 	at dotty.tools.dotc.core.Denotations$DenotUnion.toDenot(Denotations.scala:1237)
+[error] 	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2141)
+[error] 	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:692)
+[error] 	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:878)
+[error] 	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:674)
+[error] 	at dotty.tools.dotc.core.Types$Type.member(Types.scala:658)
+[error] 	at dotty.tools.dotc.typer.ProtoTypes$SelectionProto.liftedTree1$1(ProtoTypes.scala:206)
+[error] 	at dotty.tools.dotc.typer.ProtoTypes$SelectionProto.isMatchedBy(ProtoTypes.scala:228)
+[error] 	at dotty.tools.dotc.core.TypeComparer.isMatchedByProto(TypeComparer.scala:2062)
+[error] 	at dotty.tools.dotc.core.TypeComparer.firstTry$1(TypeComparer.scala:339)
+[error] 	at dotty.tools.dotc.core.TypeComparer.recur(TypeComparer.scala:1476)
+[error] 	at dotty.tools.dotc.core.TypeComparer.isSubType(TypeComparer.scala:208)
+[error] 	at dotty.tools.dotc.core.TypeComparer.isSubType(TypeComparer.scala:218)
+[error] 	at dotty.tools.dotc.core.TypeComparer.topLevelSubType(TypeComparer.scala:128)
+[error] 	at dotty.tools.dotc.core.TypeComparer.testSubType(TypeComparer.scala:144)
+[error] 	at dotty.tools.dotc.core.TypeComparer$.testSubType(TypeComparer.scala:2982)
+[error] 	at dotty.tools.dotc.typer.Typer.adaptNoArgsOther$1(Typer.scala:3966)
+[error] 	at dotty.tools.dotc.typer.Typer.adaptNoArgs$1(Typer.scala:4048)
+[error] 	at dotty.tools.dotc.typer.Typer.adapt1(Typer.scala:4265)
+[error] 	at dotty.tools.dotc.typer.Typer.adapt(Typer.scala:3573)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] 	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
+[error] 	at dotty.tools.dotc.typer.Typer.typeSelectOnTerm$1(Typer.scala:752)
+[error] 	at dotty.tools.dotc.typer.Typer.typedSelect(Typer.scala:790)
+[error] 	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3004)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] 	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
+[error] 	at dotty.tools.dotc.typer.Applications.realApply$1(Applications.scala:941)
+[error] 	at dotty.tools.dotc.typer.Applications.typedApply(Applications.scala:1101)
+[error] 	at dotty.tools.dotc.typer.Applications.typedApply$(Applications.scala:352)
+[error] 	at dotty.tools.dotc.typer.Typer.typedApply(Typer.scala:116)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3035)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] 	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
+[error] 	at dotty.tools.dotc.typer.Typer.typedValDef(Typer.scala:2417)
+[error] 	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3008)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] 	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
+[error] 	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
+[error] 	at dotty.tools.dotc.typer.Typer.typedBlockStats(Typer.scala:1159)
+[error] 	at dotty.tools.dotc.typer.Typer.typedBlock(Typer.scala:1163)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3043)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] 	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
+[error] 	at dotty.tools.dotc.typer.Typer.$anonfun$57(Typer.scala:2473)
+[error] 	at dotty.tools.dotc.inlines.PrepareInlineable$.dropInlineIfError(PrepareInlineable.scala:250)
+[error] 	at dotty.tools.dotc.typer.Typer.typedDefDef(Typer.scala:2473)
+[error] 	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3011)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] 	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
+[error] 	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
+[error] 	at dotty.tools.dotc.typer.Typer.typedClassDef(Typer.scala:2656)
+[error] 	at dotty.tools.dotc.typer.Typer.typedTypeOrClassDef$1(Typer.scala:3023)
+[error] 	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3027)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] 	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
+[error] 	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
+[error] 	at dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2799)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3068)
+[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
+[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
+[error] 	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
+[error] 	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$1(TyperPhase.scala:44)
+[error] 	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$adapted$1(TyperPhase.scala:54)
+[error] 	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+[error] 	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:437)
+[error] 	at dotty.tools.dotc.typer.TyperPhase.typeCheck(TyperPhase.scala:54)
+[error] 	at dotty.tools.dotc.typer.TyperPhase.runOn$$anonfun$3(TyperPhase.scala:88)
+[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+[error] 	at scala.collection.immutable.List.foreach(List.scala:333)
+[error] 	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:88)
+[error] 	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:246)
+[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+[error] 	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
+[error] 	at dotty.tools.dotc.Run.runPhases$1(Run.scala:262)
+[error] 	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:270)
+[error] 	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:279)
+[error] 	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:67)
+[error] 	at dotty.tools.dotc.Run.compileUnits(Run.scala:279)
+[error] 	at dotty.tools.dotc.Run.compileSources(Run.scala:194)
+[error] 	at dotty.tools.dotc.Run.compile(Run.scala:179)
+[error] 	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+[error] 	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:88)
+[error] 	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+[error] 	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:193)
+[error] 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:248)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:183)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
+[error] 	at sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:209)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:179)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:177)
+[error] 	at sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:463)
+[error] 	at sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
+[error] 	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
+[error] 	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
+[error] 	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:418)
+[error] 	at sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:506)
+[error] 	at sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:405)
+[error] 	at sbt.internal.inc.Incremental$.apply(Incremental.scala:171)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:488)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:425)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
+[error] 	at sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2363)
+[error] 	at sbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2313)
+[error] 	at sbt.internal.server.BspCompileTask$.$anonfun$compute$1(BspCompileTask.scala:30)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:46)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:28)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:23)
+[error] 	at sbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:30)
+[error] 	at sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2311)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[error] 	at java.base/java.lang.Thread.run(Unknown Source)
+[error] (runtimeJVM3 / Compile / compileIncremental) java.lang.NoClassDefFoundError: scala/runtime/Scala3RunTime$
+[error] Total time: 7 s, completed Jun 14, 2023, 4:19:46 AM
+[32mRerunning tests in ScalaPB because of a previous run failure.[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls","-Yflexible-types");++3.3.1-RC1-bin-SNAPSHOT!; lensesJVM3/compile; runtimeJVM3/compile; grpcRuntimeJVM3/compile; compilerPluginJVM3/compile[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project scalapb-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/project
+[info] loading settings for project root from build.sbt,sonatype.sbt ...
+[info] resolving key references (48988 settings) ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info]    _____             _       _____  ____  
+[info]   / ____|           | |     |  __ \|  _ \ 
+[info]  | (___   ___   __ _| | __ _| |__) | |_) |
+[info]   \___ \ / __| / _` | |/ _` |  ___/|  _ < 
+[info]   ____) | (__ | (_| | | (_| | |    | |_) |
+[info]  |_____/ \___| \__,_|_|\__,_|_|    |____/  0.11.8+16-15e623e2-SNAPSHOT
+[info] 
+[info] Useful sbt tasks:
+[info] > fmt                - Run scalafmt on the entire project.
+[info] > e2eJVM2_12/test    - Run end-to-end for Scala 2.12
+[info] > e2eJVM2_13/test    - Run end-to-end for Scala 2.13
+[info] > e2eJVM3/test       - Run end-to-end for Scala 3
+[info] > docs/mdoc --watch  - Generate docs markdown through mdoc. See docs/README.md
+[warn] there are 2 keys that are not used by any other settings/tasks:
+[warn]  
+[warn] * docs / ghpagesBranch
+[warn]   +- /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/build.sbt:434
+[warn] * docs / gitRemoteRepo
+[warn]   +- /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/build.sbt:433
+[warn]  
+[warn] note: a setting might still be used by a command; to exclude a key from this `lintUnused` check
+[warn] either append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key
+[info] Defining Global / testOptions
+[info] The new value will be used by Test / test / testOptions, Test / testOnly / testOptions and 141 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info]    _____             _       _____  ____  
+[info]   / ____|           | |     |  __ \|  _ \ 
+[info]  | (___   ___   __ _| | __ _| |__) | |_) |
+[info]   \___ \ / __| / _` | |/ _` |  ___/|  _ < 
+[info]   ____) | (__ | (_| | | (_| | |    | |_) |
+[info]  |_____/ \___| \__,_|_|\__,_|_|    |____/  0.11.8+16-15e623e2-SNAPSHOT
+[info] 
+[info] Useful sbt tasks:
+[info] > fmt                - Run scalafmt on the entire project.
+[info] > e2eJVM2_12/test    - Run end-to-end for Scala 2.12
+[info] > e2eJVM2_13/test    - Run end-to-end for Scala 2.13
+[info] > e2eJVM3/test       - Run end-to-end for Scala 3
+[info] > docs/mdoc --watch  - Generate docs markdown through mdoc. See docs/README.md
+[success] Total time: 0 s, completed Jun 14, 2023, 4:20:12 AM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 525 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info]    _____             _       _____  ____  
+[info]   / ____|           | |     |  __ \|  _ \ 
+[info]  | (___   ___   __ _| | __ _| |__) | |_) |
+[info]   \___ \ / __| / _` | |/ _` |  ___/|  _ < 
+[info]   ____) | (__ | (_| | | (_| | |    | |_) |
+[info]  |_____/ \___| \__,_|_|\__,_|_|    |____/  0.11.8+16-15e623e2-SNAPSHOT
+[info] 
+[info] Useful sbt tasks:
+[info] > fmt                - Run scalafmt on the entire project.
+[info] > e2eJVM2_12/test    - Run end-to-end for Scala 2.12
+[info] > e2eJVM2_13/test    - Run end-to-end for Scala 2.13
+[info] > e2eJVM3/test       - Run end-to-end for Scala 3
+[info] > docs/mdoc --watch  - Generate docs markdown through mdoc. See docs/README.md
+[info] Defining Global / updateOptions
+[info] The new value will be used by compilerPluginJVM2_12 / dependencyTreeIgnoreMissingUpdate / updateOptions, compilerPluginJVM2_12 / ivyConfiguration and 141 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info]    _____             _       _____  ____  
+[info]   / ____|           | |     |  __ \|  _ \ 
+[info]  | (___   ___   __ _| | __ _| |__) | |_) |
+[info]   \___ \ / __| / _` | |/ _` |  ___/|  _ < 
+[info]   ____) | (__ | (_| | | (_| | |    | |_) |
+[info]  |_____/ \___| \__,_|_|\__,_|_|    |____/  0.11.8+16-15e623e2-SNAPSHOT
+[info] 
+[info] Useful sbt tasks:
+[info] > fmt                - Run scalafmt on the entire project.
+[info] > e2eJVM2_12/test    - Run end-to-end for Scala 2.12
+[info] > e2eJVM2_13/test    - Run end-to-end for Scala 2.13
+[info] > e2eJVM3/test       - Run end-to-end for Scala 3
+[info] > docs/mdoc --watch  - Generate docs markdown through mdoc. See docs/README.md
+[info] Defining Global / scalacOptions
+[info] The new value will be used by Compile / scalacOptions, compilerPluginJVM2_12 / scalacOptions and 45 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info]    _____             _       _____  ____  
+[info]   / ____|           | |     |  __ \|  _ \ 
+[info]  | (___   ___   __ _| | __ _| |__) | |_) |
+[info]   \___ \ / __| / _` | |/ _` |  ___/|  _ < 
+[info]   ____) | (__ | (_| | | (_| | |    | |_) |
+[info]  |_____/ \___| \__,_|_|\__,_|_|    |____/  0.11.8+16-15e623e2-SNAPSHOT
+[info] 
+[info] Useful sbt tasks:
+[info] > fmt                - Run scalafmt on the entire project.
+[info] > e2eJVM2_12/test    - Run end-to-end for Scala 2.12
+[info] > e2eJVM2_13/test    - Run end-to-end for Scala 2.13
+[info] > e2eJVM3/test       - Run end-to-end for Scala 3
+[info] > docs/mdoc --watch  - Generate docs markdown through mdoc. See docs/README.md
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info]    _____             _       _____  ____  
+[info]   / ____|           | |     |  __ \|  _ \ 
+[info]  | (___   ___   __ _| | __ _| |__) | |_) |
+[info]   \___ \ / __| / _` | |/ _` |  ___/|  _ < 
+[info]   ____) | (__ | (_| | | (_| | |    | |_) |
+[info]  |_____/ \___| \__,_|_|\__,_|_|    |____/  0.11.8+16-15e623e2-SNAPSHOT
+[info] 
+[info] Useful sbt tasks:
+[info] > fmt                - Run scalafmt on the entire project.
+[info] > e2eJVM2_12/test    - Run end-to-end for Scala 2.12
+[info] > e2eJVM2_13/test    - Run end-to-end for Scala 2.13
+[info] > e2eJVM3/test       - Run end-to-end for Scala 3
+[info] > docs/mdoc --watch  - Generate docs markdown through mdoc. See docs/README.md
+[success] Total time: 7 s, completed Jun 14, 2023, 4:20:32 AM
+[success] Total time: 25 s, completed Jun 14, 2023, 4:20:57 AM
+[success] Total time: 2 s, completed Jun 14, 2023, 4:20:59 AM
+[success] Total time: 8 s, completed Jun 14, 2023, 4:21:07 AM
+[32m[SUCCESS ScalaPB][0m
+[32m[ScalaPB DONE RUNNING][0m
+[info] Test run dotty.communitybuild.CommunityBuildTestC finished: 0 failed, 0 ignored, 1 total, 142.93s
+[info] Test run dotty.communitybuild.CommunityBuildTestB started
+[info] Test run dotty.communitybuild.CommunityBuildTestB finished: 0 failed, 0 ignored, 0 total, 0.0s
+[info] Passed: Total 1, Failed 0, Errors 0, Passed 1
+[success] Total time: 172 s (02:52), completed Jun 14, 2023, 4:21:08 AM

@@ -1,0 +1,650 @@
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project scala_flexible_type_with_test_script-build-build from build.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/project/project
+[info] loading settings for project scala_flexible_type_with_test_script-build from build.sbt,plugins.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/project
+[info] loading settings for project scala3 from build.sbt ...
+[info] resolving key references (31394 settings) ...
+[info] set current project to scala3 (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_sjs1_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/interfaces/target/scala3-interfaces-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/tasty/../out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/tasty-core_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/tasty-inspector/../out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-tasty-inspector_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/sbt-community-build-0.1.0-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/compiler/../out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-compiler_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/scaladoc/../out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scaladoc_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/sbt-bridge/src/target/scala3-sbt-bridge-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] :: delivering :: ch.epfl.lamp#sbt-community-build;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Wed Jun 14 04:38:04 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/ivy-0.1.0-SNAPSHOT.xml
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/poms/sbt-community-build.pom
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/jars/sbt-community-build.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/srcs/sbt-community-build-sources.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/docs/sbt-community-build-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-interfaces;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 04:38:04 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/interfaces/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-interfaces.pom
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-interfaces.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-interfaces-sources.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-interfaces-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-sbt-bridge;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 04:38:05 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/sbt-bridge/src/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-sbt-bridge.pom
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-sbt-bridge.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-sbt-bridge-sources.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-sbt-bridge-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] :: delivering :: org.scala-lang#tasty-core_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 04:38:09 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/poms/tasty-core_3.pom
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/jars/tasty-core_3.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/srcs/tasty-core_3-sources.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/docs/tasty-core_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-tasty-inspector_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 04:38:09 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-tasty-inspector_3.pom
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-tasty-inspector_3.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-tasty-inspector_3-sources.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-tasty-inspector_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scaladoc_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 04:38:09 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/poms/scaladoc_3.pom
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/jars/scaladoc_3.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scaladoc_3-sources.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/docs/scaladoc_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Flag -project-logo set repeatedly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Flag -project-footer set repeatedly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
+[warn] Flag -default-template set repeatedly
+[warn] Setting -external-mappings set to .*scala/.*::scaladoc3::https://dotty.epfl.ch/api/ redundantly
+[warn] Setting -external-mappings set to .*java/.*::javadoc::https://docs.oracle.com/javase/8/docs/api/ redundantly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Flag -author set repeatedly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Flag -groups set repeatedly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] :: delivering :: org.scala-lang#scala3-compiler_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 04:38:10 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-compiler_3.pom
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-compiler_3.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-compiler_3-sources.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-compiler_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      ^
+[warn]    |      No DRI found for query: MalformedNumber
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      ^
+[warn]    |      No DRI found for query: MalformedNumber
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[warn] 28 warnings found
+[error] one error found
+[warn] 14 warnings found
+[error] one error found
+[info] :: delivering :: org.scala-lang#scala3-library_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 04:38:30 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] :: delivering :: org.scala-lang#scala3-library_sjs1_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 14 04:38:30 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_3.pom
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_3.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_3-sources.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_sjs1_3.pom
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_sjs1_3.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_sjs1_3-sources.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_sjs1_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Test run dotty.communitybuild.CommunityBuildTestA started
+[info] Test run dotty.communitybuild.CommunityBuildTestA finished: 0 failed, 0 ignored, 0 total, 0.001s
+[info] Test run dotty.communitybuild.CommunityBuildTestC started
+[info] Test dotty.communitybuild.CommunityBuildTestC.scalacheck started
+[32m[STARTING scalacheck][0m
+[32m[DEPENDENCIES DONE, NOW ACTUALLY RUNNING scalacheck][0m
+[32mBuilding scalacheck with dotty-bootstrapped 3.3.1-RC1-bin-SNAPSHOT...[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; coreJVM/test;coreJS/test[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] waiting for lock on /Users/y3536zha/.ivy2/.sbt.ivy.lock to be available...
+[info] loading settings for project scalacheck-build from plugin.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/project
+[info] loading settings for project root from build.sbt ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Defining Global / testOptions
+[info] The new value will be used by Test / test / testOptions, Test / testOnly / testOptions and 24 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[success] Total time: 0 s, completed Jun 14, 2023, 4:38:48 AM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 64 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by bench / dependencyTreeIgnoreMissingUpdate / updateOptions, bench / ivyConfiguration and 21 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by bench / scalacOptions, coreJS / scalacOptions and 5 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[error] ## Exception when compiling 25 sources to /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/target/scala-3.3.1-RC1-bin-SNAPSHOT/classes
+[error] java.lang.NoClassDefFoundError: scala/IArray$package$IArray$
+[error] dotty.tools.dotc.core.Definitions.<init>(Definitions.scala:1445)
+[error] dotty.tools.dotc.core.Contexts$ContextBase.<init>(Contexts.scala:875)
+[error] dotty.tools.dotc.Driver.initCtx(Driver.scala:61)
+[error] dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:58)
+[error] dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+[error] sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:193)
+[error] scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:248)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:183)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
+[error] sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:211)
+[error] sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:534)
+[error] sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:534)
+[error] sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:179)
+[error] sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:177)
+[error] sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:463)
+[error] sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
+[error] sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
+[error] sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
+[error] sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
+[error] sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:418)
+[error] sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:506)
+[error] sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:405)
+[error] sbt.internal.inc.Incremental$.apply(Incremental.scala:171)
+[error] sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:534)
+[error] sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:488)
+[error] sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
+[error] sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:425)
+[error] sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
+[error] sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2363)
+[error] sbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2313)
+[error] sbt.internal.server.BspCompileTask$.$anonfun$compute$1(BspCompileTask.scala:30)
+[error] sbt.internal.io.Retry$.apply(Retry.scala:46)
+[error] sbt.internal.io.Retry$.apply(Retry.scala:28)
+[error] sbt.internal.io.Retry$.apply(Retry.scala:23)
+[error] sbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:30)
+[error] sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2311)
+[error] scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] sbt.Execute.work(Execute.scala:291)
+[error] sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[error] java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[error] java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[error] java.base/java.lang.Thread.run(Unknown Source)
+[error]            
+[error] java.lang.NoClassDefFoundError: scala/IArray$package$IArray$
+[error] 	at dotty.tools.dotc.core.Definitions.<init>(Definitions.scala:1445)
+[error] 	at dotty.tools.dotc.core.Contexts$ContextBase.<init>(Contexts.scala:875)
+[error] 	at dotty.tools.dotc.Driver.initCtx(Driver.scala:61)
+[error] 	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:58)
+[error] 	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+[error] 	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:193)
+[error] 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:248)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:183)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
+[error] 	at sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:211)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:179)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:177)
+[error] 	at sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:463)
+[error] 	at sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
+[error] 	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
+[error] 	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
+[error] 	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:418)
+[error] 	at sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:506)
+[error] 	at sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:405)
+[error] 	at sbt.internal.inc.Incremental$.apply(Incremental.scala:171)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:488)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:425)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
+[error] 	at sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2363)
+[error] 	at sbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2313)
+[error] 	at sbt.internal.server.BspCompileTask$.$anonfun$compute$1(BspCompileTask.scala:30)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:46)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:28)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:23)
+[error] 	at sbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:30)
+[error] 	at sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2311)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[error] 	at java.base/java.lang.Thread.run(Unknown Source)
+[error] Caused by: java.lang.ClassNotFoundException: scala.IArray$package$IArray$
+[error] 	at java.base/java.net.URLClassLoader.findClass(Unknown Source)
+[error] 	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+[error] 	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+[error] 	at dotty.tools.dotc.core.Definitions.<init>(Definitions.scala:1445)
+[error] 	at dotty.tools.dotc.core.Contexts$ContextBase.<init>(Contexts.scala:875)
+[error] 	at dotty.tools.dotc.Driver.initCtx(Driver.scala:61)
+[error] 	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:58)
+[error] 	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+[error] 	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:193)
+[error] 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:248)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:183)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
+[error] 	at sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:211)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:179)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:177)
+[error] 	at sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:463)
+[error] 	at sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
+[error] 	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
+[error] 	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
+[error] 	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:418)
+[error] 	at sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:506)
+[error] 	at sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:405)
+[error] 	at sbt.internal.inc.Incremental$.apply(Incremental.scala:171)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:488)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:425)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
+[error] 	at sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2363)
+[error] 	at sbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2313)
+[error] 	at sbt.internal.server.BspCompileTask$.$anonfun$compute$1(BspCompileTask.scala:30)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:46)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:28)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:23)
+[error] 	at sbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:30)
+[error] 	at sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2311)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[error] 	at java.base/java.lang.Thread.run(Unknown Source)
+[error] (coreJVM / Compile / compileIncremental) java.lang.NoClassDefFoundError: scala/IArray$package$IArray$
+[error] Total time: 2 s, completed Jun 14, 2023, 4:38:54 AM
+[32mRerunning tests in scalacheck because of a previous run failure.[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; coreJVM/test;coreJS/test[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project scalacheck-build from plugin.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/project
+[info] loading settings for project root from build.sbt ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Defining Global / testOptions
+[info] The new value will be used by Test / test / testOptions, Test / testOnly / testOptions and 24 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[success] Total time: 0 s, completed Jun 14, 2023, 4:39:05 AM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 64 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by bench / dependencyTreeIgnoreMissingUpdate / updateOptions, bench / ivyConfiguration and 21 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by bench / scalacOptions, coreJS / scalacOptions and 5 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+failing seed for Serializability.Arbitrary[String] is PqPLn26EiiNznkgLo_bvgPRa6nFZ9rZS2Y68op_cC3M=
+failing seed for Serializability.Arbitrary[Int] is YakU3yGYS767_qp0J3a3gG8cLHiQP_gwGHu_FqUXtQF=
+failing seed for Serializability.Arbitrary[Double] is ZqptR2q7uTqTBuvn6Ju6YGeNYhdH3xktDA-sAoLHICH=
+failing seed for Serializability.Arbitrary[Boolean] is A15UTas9ILiImacF4KpRW6vJ1t814DtDbZdgx6Mi2HC=
+failing seed for Serializability.Arbitrary[Int => Int] is esftb8XIAGMB6DGfbneFVj6_lushQtNJXMk1Bs0IkyO=
+failing seed for Serializability.Arbitrary[List[Int]] is 4Pa--D4uk7tVLb0UyvJvwWjHh_JwgvVq5Y85nTnR4kP=
+failing seed for Serializability.Arbitrary[(String,Int)] is enwcnmJlNg4PLerHgClQ4yIuOlEqx5SCM0xTNxUkadJ=
+failing seed for Serializability.Arbitrary[Tuple22[Int]] is YIsShizUaEJyaKLOzPp8F5dALpdmLcT8Q7Emy-B4jSM=
+failing seed for Serializability.Arbitrary[List[(String,Int)]] is ir2HrZfGaVkLTgsKZY_UImWnN9_EcdPtr9G-axi0jmC=
+failing seed for Serializability.Gen.identifier is lKq4DB3-VPJuOlEtv6dFOBK5CSQYmzxjjmGAPpecNfN=
+failing seed for Serializability.Gen.oneOf is WRMK2AHL0km1GXlWittbBudbXzYU0G6wmx3e34sYzdA=
+failing seed for Serializability.Gen.choose is 2O49RfcF7ql270KDJuGX9dbfv75CYyJIzKnK7_G7n7K=
+failing seed for Serializability.Gen.function1 is Y4mUR_wpufUwRcyeHByepWCUXd7lUqTlgLx8tiSB_5G=
+failing seed for Serializability.Gen.zip(String,Int) is puoN7n7wAtm3HYXSo-rVCJNseSIoYulDhxE2BuNPZxL=
+failing seed for Serializability.Cogen[String] is NpsZxpMRW5g9gOFp4HQ_BFj8wM5lRwIbWyaOrBqKrOA=
+failing seed for Serializability.Cogen[Int] is ck8CostIna9PLNIbo-Xmst3nZ5r0toi5mnNarXsCw8L=
+failing seed for Serializability.Cogen[Double] is jFt2bnixpBfihvBNmMP_1KA-Oucx-9pNeQbi5sKoACB=
+failing seed for Serializability.Cogen[Boolean] is oi_TPs_P9np6ZWJ1nTcK_wU-bWEE0_Bu3bxdnY0CthN=
+failing seed for Serializability.Cogen[Int => Int] is YjGipTKsVHPXG5MIewoC_5xvZVrU0yzwv98Xq_zPMVM=
+failing seed for Serializability.Cogen[List[Int]] is hrj5FlQLuuConahBRx_vC7d8VDZWmRDyPuJ0s4lJb9H=
+failing seed for Serializability.Cogen[(String,Int)] is ukEthD1BTbykrJ9f5XbcA1Nro9ip41TZLSgOcp3C8XO=
+failing seed for Serializability.Cogen[Tuple22[Int]] is MifY56pEPyCET4EkFnFwy_sRnazk_ga4ztHT2gg2VFB=
+failing seed for Serializability.Cogen[List[(String,Int)]] is bIc3w9aRR-i7AAKtXhgNlbQZUYAvWugZSPFju6o_LjC=
+failing seed for Serializability.Shrink[String] is Cq_h53Au87MWZjGHEBYjtmFZ5mqZSyMh75KixBMk8jD=
+failing seed for Serializability.Shrink[Int] is pbTqiUpaXdKV-lxNG25qNFuuPqT8045u0rNKtASjqJA=
+failing seed for Serializability.Shrink[Double] is neaXYlfiIV3LbvhbdzrZepo-gnVetePDWHKu4nzPUaA=
+failing seed for Serializability.Shrink[Boolean] is TEEZ3tlelXw3TyXpn028JSQ1XUmBMe4M7AwOMC4m20E=
+failing seed for Serializability.Shrink[Int => Int] is BZpMECzEXbz2gdu-ov5GuiZgeIrfXd4q9nN_0wUwIiH=
+failing seed for Serializability.Shrink[List[Int]] is NSgWLh51-sk8DTRTPsFmL6emoTT0dCtGxeZjC8AlpWM=
+failing seed for Serializability.Shrink[(String,Int)] is xPUugRNRjLkEbTJcXE3n_ByKxYT-MgpMx_xw6q_csSD=
+failing seed for Serializability.Shrink[Tuple22[Int])] is ZRovxEGCj-y_zIo6e3zWpLWXE3uxzeVcU2uS8NZqzlN=
+failing seed for Serializability.Shrink[List[(String,Int)]] is D8n_D1GIZbbE-jgbnAO_LE5B6-puIBrkSVghL6NyNWF=
+failing seed for Serializability.Seed(1L) is 89aWTTJTwS25kiUrTdgse2DeDPT6m04KjTJQZgRBgwG=
+failing seed for P.outer is VKgX5HkjqA8M1aNnYXYCWxAKXNYjYnG-qCAfcO333TP=
+[error] Error: Total 393, Failed 0, Errors 33, Passed 360
+[error] Error during tests:
+[error] 	org.scalacheck.SerializabilitySpecification
+[error] (coreJVM / Test / test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 53 s, completed Jun 14, 2023, 4:40:02 AM
+[32mRerunning tests in scalacheck because of a previous run failure.[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; coreJVM/test;coreJS/test[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project scalacheck-build from plugin.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/project
+[info] loading settings for project root from build.sbt ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Defining Global / testOptions
+[info] The new value will be used by Test / test / testOptions, Test / testOnly / testOptions and 24 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[success] Total time: 0 s, completed Jun 14, 2023, 4:40:13 AM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 64 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by bench / dependencyTreeIgnoreMissingUpdate / updateOptions, bench / ivyConfiguration and 21 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by bench / scalacOptions, coreJS / scalacOptions and 5 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+failing seed for Serializability.Arbitrary[String] is fqDl6ZQLQzWb24uqy2C1lee8oQWNDshQfEBIEUh5SSL=
+failing seed for Serializability.Arbitrary[Int] is pyzbvCP2x8C5pWgacyPfOH-kEvZe83pGOBHK1u2oLzO=
+failing seed for Serializability.Arbitrary[Double] is lthdUT2U8UC_Wxy1A513q4TKriuFt82ujC_AotgSfnP=
+failing seed for Serializability.Arbitrary[Boolean] is gJPeLLkkiADpJ7kPVhARUA-JpM4sZ6ZnJGRoeQkGYBL=
+failing seed for Serializability.Arbitrary[Int => Int] is HMXa4mygMa7iGhGQzUYvy4ZR2aW5Z8CslydoFHLrEeE=
+failing seed for Serializability.Arbitrary[List[Int]] is Luzy0shl216CpA5fBlrMO-3UpwYHZrROr8XnHY_p2kC=
+failing seed for Serializability.Arbitrary[(String,Int)] is LYSzD6jIHpaFVYV39crr9bqjUAo4EC0cC8f5sSv_7EP=
+failing seed for Serializability.Arbitrary[Tuple22[Int]] is QeS7C5c4EFwjD2gm84tfymUMGxqHjCf2MtPH7ryhgUC=
+failing seed for Serializability.Arbitrary[List[(String,Int)]] is uemFgGocDeCIV5W0pe79Td814DfvukC_J5MtJfkd5ME=
+failing seed for Serializability.Gen.identifier is qewUytO_tizDurJp-PH6ofohaaGCqV1MnZpgWhqcWBG=
+failing seed for Serializability.Gen.oneOf is fWizsIybmBOVsoeUK7kRWSXBFJwGdU8-BVLiifqxbZP=
+failing seed for Serializability.Gen.choose is wWveRVJg9eUWs-dtI9RnibIFg7VwX4A8l4rwiGpxIlL=
+failing seed for Serializability.Gen.function1 is ozyW5OQ_9UDjPsZ1_IBbf7oHZ9xFcgHZ6m1wT7X0JyB=
+failing seed for Serializability.Gen.zip(String,Int) is y3iYww-hJi1GQeDc5zqtUnscu41s8cMR39o4JGSOr8I=
+failing seed for Serializability.Cogen[String] is kulMdyVQOXWKba4b_tPp-tcCnkrB0EB_M9Yq3tKDO5K=
+failing seed for Serializability.Cogen[Int] is itVBmpPnyW6_q3DcRE5KRcyG5UUgkmKsCPkNsgr8vQI=
+failing seed for Serializability.Cogen[Double] is sdcm08s1wnB-G6_teOUtUP9DWTNMjdxKR8KqDjNed2K=
+failing seed for Serializability.Cogen[Boolean] is SG7IFDK-XmPRvhmo4zxnXUQ3N3LL7Eb-XpuLQ4KUvEH=
+failing seed for Serializability.Cogen[Int => Int] is 9IfpVgmhBmjD4QkNCaWgiwKbruwG7UoomVEkudMx90N=
+failing seed for Serializability.Cogen[List[Int]] is ohCHp7L24e9aInpVdiKeD9NmzWH2B0imJfUWra_4bPA=
+failing seed for Serializability.Cogen[(String,Int)] is WSSBGRKdK0QHRG6DD91YubnyvYnf-OCCgE25xhvnRqJ=
+failing seed for Serializability.Cogen[Tuple22[Int]] is lG4kSg8-Pp0zSYD38Jckfnh4fEhhsh_jeY-hbj30YOD=
+failing seed for Serializability.Cogen[List[(String,Int)]] is V0hT8deOlihjP8L0RulFol9B9EWK_2rhNIRAxT5QKnM=
+failing seed for Serializability.Shrink[String] is FOsiXOqZUctpOu57QFSfh_Q9Zx6LgOSj1pAZzmV9KOA=
+failing seed for Serializability.Shrink[Int] is BsUBkr5qANx7LsZrNyGSupPhvuqvBUxwpqyHpRgDJAJ=
+failing seed for Serializability.Shrink[Double] is eXYeqwhr73MGkFVERaV4vLXQvgIz4f9rWHYb_q4ZQiB=
+failing seed for Serializability.Shrink[Boolean] is G5ONpWwhJYAhTpCI9Pkxd7DsBKOhTkwcmGwgP5m1PDP=
+failing seed for Serializability.Shrink[Int => Int] is 12v4K1_QnNKhJBvJ1p0RSr2CqWD4md8W-yaJf3ZqtcK=
+failing seed for Serializability.Shrink[List[Int]] is 2drcRmrFGN_xQOQL6o19X0nKbam-NoFkRRSvXL_duZE=
+failing seed for Serializability.Shrink[(String,Int)] is wVlRDUgzNTyG8eG03u7falOjpMm0yiyzYZC2xq8RwGE=
+failing seed for Serializability.Shrink[Tuple22[Int])] is f2Z4EexmgjQ0LZW2cnUyVeKiVhoCwhJgW97sKAftzLM=
+failing seed for Serializability.Shrink[List[(String,Int)]] is ISSn2CWrGA9223e_pJBIB7asUGkd0ZMWpSPVlN6c7PP=
+failing seed for Serializability.Seed(1L) is EOxUYLC8Uv-w0i_XMUKaaosah_VUEt-c8CKd5_BqtAB=
+failing seed for P.outer is MaYdtaYDBq7GLV5cgUbWS47gkjzkDvIU7lqDrM-clVB=
+[error] Error: Total 393, Failed 0, Errors 33, Passed 360
+[error] Error during tests:
+[error] 	org.scalacheck.SerializabilitySpecification
+[error] (coreJVM / Test / test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 54 s, completed Jun 14, 2023, 4:41:11 AM
+[32mRerunning tests in scalacheck because of a previous run failure.[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; coreJVM/test;coreJS/test[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project scalacheck-build from plugin.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/project
+[info] loading settings for project root from build.sbt ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Defining Global / testOptions
+[info] The new value will be used by Test / test / testOptions, Test / testOnly / testOptions and 24 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[success] Total time: 0 s, completed Jun 14, 2023, 4:41:22 AM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 64 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by bench / dependencyTreeIgnoreMissingUpdate / updateOptions, bench / ivyConfiguration and 21 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by bench / scalacOptions, coreJS / scalacOptions and 5 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+failing seed for Serializability.Arbitrary[String] is s1S7fG25xFk55yRacfN26M0x2E1X6SSNSnpBU1hnaeN=
+failing seed for Serializability.Arbitrary[Int] is JEVWPGohaJ5wy1r6-D2U1GWdljUEHwdEjln5zRVRWdK=
+failing seed for Serializability.Arbitrary[Double] is ISDAnB4ApPvRrc_2CATijeuhckb1ZhBM_-eGLD0kE-D=
+failing seed for Serializability.Arbitrary[Boolean] is zIZ8YkO-SXmqbpiSCc14VSu61t2AJrPEp6Lg7bRi79L=
+failing seed for Serializability.Arbitrary[Int => Int] is cFkn3S4c_Vz2CYQFmE2Jucw_CGx12-KbLoNJLlDp7FA=
+failing seed for Serializability.Arbitrary[List[Int]] is IqCEuD5SYTm6MxZn9cL4gLGyARNOrxhZ02qGdNFjbfF=
+failing seed for Serializability.Arbitrary[(String,Int)] is 3xOEWnoYbGpeNTAr7Q2ZdUGs2Nb5vIy6E8XhAY7xLrC=
+failing seed for Serializability.Arbitrary[Tuple22[Int]] is PSP6DOOg2vsWvY6f9y-TwH4hSZRTgrJXwUcIwjHBlqB=
+failing seed for Serializability.Arbitrary[List[(String,Int)]] is zfLpaTGCwJfz2Mr-p087kocofX4WTFZ8ibwb7L0jgaK=
+failing seed for Serializability.Gen.identifier is Kf-eLxFHuQzD7CTqqgFCazqqiLD5xgTiGiIlD7y5eaK=
+failing seed for Serializability.Gen.oneOf is GS2BGR3GBrgurZm3Ru5dwktU_LeGV5yFTvaTFsxyqnH=
+failing seed for Serializability.Gen.choose is sRuonpCzWl8LODJvLy2Wn3PDBirpJgWl5Hvm0AfryuF=
+failing seed for Serializability.Gen.function1 is vn6aPj2KvjXq2sdh_ikd1qJ4hjsbLKauAoV2aSztofO=
+failing seed for Serializability.Gen.zip(String,Int) is SthCuzSASkY4adAJsUXzJjqPTxTIzs4e-8WuzXbaLzE=
+failing seed for Serializability.Cogen[String] is lnKMXWYT0HDKEimH8vN381Xz1lh4ns0X9N53xnfpHTC=
+failing seed for Serializability.Cogen[Int] is dB52zDL8v7h4HqfMdC816Rcd0c324i0i5b6NyExVOGM=
+failing seed for Serializability.Cogen[Double] is R6BaRpPH7EeCEaQzJ-uW-fKckYiq6tw_FAAD9-3pKzC=
+failing seed for Serializability.Cogen[Boolean] is wEmrEzw4hRInGGX9-lNOzrQoAcNEUCguQpuw_sCWMJK=
+failing seed for Serializability.Cogen[Int => Int] is xoxo11eCu0kp-YsSE3idaPu2V-gtKxRrmAC-nn8C4iI=
+failing seed for Serializability.Cogen[List[Int]] is NFDYF94jb6C8HaJ2PSsufDI2CWFUiezIrstT1aNRkKN=
+failing seed for Serializability.Cogen[(String,Int)] is I2YV9EhFDqB_NH4Ojc1GeodbvDCbukv8WuuhuMRTrIM=
+failing seed for Serializability.Cogen[Tuple22[Int]] is 06bHal-44gwF-sOjjYEYR8gJABO75YTu0EFur2tuOXA=
+failing seed for Serializability.Cogen[List[(String,Int)]] is Reok9hOeggpsSrEfFBYJBBfqj1cilfz25i355Mvl6hF=
+failing seed for Serializability.Shrink[String] is vJqw5FjX52r3cscCN6Ah5vu3FBRFMrNQjdldY2NIVTM=
+failing seed for Serializability.Shrink[Int] is 8mdEj1-aOfIp6-Ze3R45eJV45k9z3G9tmJQlmOC5lIK=
+failing seed for Serializability.Shrink[Double] is 4mk5oe2KbfnYXNEXM2Gk1S3YTktvWq1mgeAA_yTuwuG=
+failing seed for Serializability.Shrink[Boolean] is GZulgrFSokJJYlndFgGCb5KsHVsGCIEPiiBGCcugzVJ=
+failing seed for Serializability.Shrink[Int => Int] is V-dGIOyWDzrHP7AWPYlHTckOKdJOq0IDVIg9P3kVWWI=
+failing seed for Serializability.Shrink[List[Int]] is 6BEhg4xmh5Fq2GKJsrAeKxZ3Al5Bqa8B3_F8zmuM0ZM=
+failing seed for Serializability.Shrink[(String,Int)] is TRCUGLldNXRkRBS76MQU59RyZ8WwbQL9ucliTLMzk8D=
+failing seed for Serializability.Shrink[Tuple22[Int])] is vL9H9Ck3ktDTjc65MQsUZaDPmP6fMlcRZBHM4DMjhNA=
+failing seed for Serializability.Shrink[List[(String,Int)]] is F7b50GHmb68jWxf8sOgPutGdfDvuWjGI6rG8BD1EZSH=
+failing seed for Serializability.Seed(1L) is uM7F4KHyNUjEEwULKmLarbSAsVG8ewT9eZAcoL2dqpB=
+failing seed for P.outer is IYYXaXjgxy-7Dk84iakPzTnjEi3bR3-ZfI3kbsduY9G=
+[error] Error: Total 393, Failed 0, Errors 33, Passed 360
+[error] Error during tests:
+[error] 	org.scalacheck.SerializabilitySpecification
+[error] (coreJVM / Test / test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 53 s, completed Jun 14, 2023, 4:42:19 AM
+[32m[FAILURE scalacheck][0m
+[32m[scalacheck DONE RUNNING][0m
+[error] Test dotty.communitybuild.CommunityBuildTestC.scalacheck failed: java.lang.AssertionError: 
+[error] 
+[error] sbt exited with an error code. To reproduce without JUnit, use:
+[error] 
+[error]     sbt community-build/prepareCommunityBuild
+[error]     cd community-build/community-projects/scalacheck
+[error]     sbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins "set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; coreJVM/test;coreJS/test"
+[error] 
+[error] For a faster feedback loop on SBT projects, one can try to extract a direct call to dotc
+[error] using the sbt export command. For instance, for scalacheck, use
+[error]     sbt export jvm/test:compileIncremental
+[error] 
+[error] , took 228.171 sec
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.failWith(CommunityBuildTest.scala:15)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject(CommunityBuildRunner.scala:93)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject$(CommunityBuildRunner.scala:33)
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.runProject(CommunityBuildTest.scala:14)
+[error]     at dotty.communitybuild.CommunityBuildRunner$.run(CommunityBuildRunner.scala:28)
+[error]     at dotty.communitybuild.CommunityBuildTestC.scalacheck(CommunityBuildTest.scala:83)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[error]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[error]     at java.lang.reflect.Method.invoke(Unknown Source)
+[error]     ...
+[info] Test run dotty.communitybuild.CommunityBuildTestC finished: 1 failed, 0 ignored, 1 total, 228.179s
+********************************************************************************
+Failed projects:
+ - dotty.communitybuild.CommunityBuildTestC.scalacheck
+********************************************************************************
+[info] Test run dotty.communitybuild.CommunityBuildTestB started
+[info] Test run dotty.communitybuild.CommunityBuildTestB finished: 0 failed, 0 ignored, 0 total, 0.0s
+[error] Failed: Total 1, Failed 1, Errors 0, Passed 0
+[error] Failed tests:
+[error] 	dotty.communitybuild.CommunityBuildTestC
+[error] (community-build / Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 257 s (04:17), completed Jun 14, 2023, 4:42:20 AM
